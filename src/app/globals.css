@@ -1,52 +1,93 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #0a2a3c;
+  --bg-primary: #060d18;
+  --bg-secondary: #0b1628;
+  --bg-card: #0f1d32;
+  --bg-card-hover: #142540;
+  --border: rgba(255,255,255,0.06);
+  --border-hover: rgba(0,180,216,0.3);
+  --text-primary: #f0f4f8;
+  --text-secondary: rgba(240,244,248,0.6);
+  --text-muted: rgba(240,244,248,0.35);
+  --accent: #00b4d8;
+  --accent-glow: #00e5ff;
+  --accent-soft: rgba(0,180,216,0.1);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-teal-dark: #0a2a3c;
-  --color-teal-mid: #0e4d64;
-  --color-teal-accent: #00b4d8;
-  --color-teal-light: #e0f7fa;
-  --color-cyan-glow: #00e5ff;
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-card: var(--bg-card);
+  --color-bg-card-hover: var(--bg-card-hover);
+  --color-border: var(--border);
+  --color-border-hover: var(--border-hover);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-accent-glow: var(--accent-glow);
+  --color-accent-soft: var(--accent-soft);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-space-grotesk);
 }
 
+html { scroll-behavior: smooth; }
+
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--bg-primary);
+  color: var(--text-primary);
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
+/* Glow effects */
+.glow { box-shadow: 0 0 24px rgba(0,180,216,0.25), 0 0 80px rgba(0,180,216,0.08); }
+.glow-sm { box-shadow: 0 0 12px rgba(0,180,216,0.15); }
+
+/* Glass card */
+.glass {
+  background: rgba(15,29,50,0.6);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.06);
 }
 
-@keyframes gradient-shift {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
+/* Typewriter cursor */
+@keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+.cursor::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+  color: var(--accent);
+  margin-left: 2px;
 }
 
-.hero-gradient {
-  background: linear-gradient(135deg, #071e2c 0%, #0e4d64 40%, #0a2a3c 70%, #062030 100%);
-  background-size: 200% 200%;
-  animation: gradient-shift 12s ease infinite;
+/* Fade in on scroll */
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.noise-overlay::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
-  pointer-events: none;
-  z-index: 1;
+/* Gradient mesh background */
+.mesh-bg {
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(0,180,216,0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(0,229,255,0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, rgba(0,100,150,0.06) 0%, transparent 50%),
+    var(--bg-primary);
 }
 
-.glow-teal {
-  box-shadow: 0 0 20px rgba(0, 180, 216, 0.3), 0 0 60px rgba(0, 180, 216, 0.1);
+/* Simulated dashboard styles */
+.sim-card {
+  background: linear-gradient(135deg, #0c1a2e 0%, #0f2038 100%);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
 }
+
+.sim-alert-red { background: rgba(239,68,68,0.08); border-left: 3px solid #ef4444; }
+.sim-alert-green { background: rgba(34,197,94,0.08); border-left: 3px solid #22c55e; }
+.sim-alert-yellow { background: rgba(234,179,8,0.08); border-left: 3px solid #eab308; }
+.sim-alert-blue { background: rgba(0,180,216,0.08); border-left: 3px solid var(--accent); }

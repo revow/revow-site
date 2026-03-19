@@ -1,46 +1,29 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
+const spaceGrotesk = Space_Grotesk({ variable: "--font-space-grotesk", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Revow — Revenue Operating System",
-  description:
-    "Inteligência de receita com IA que detecta perdas, prescreve ações e aprende com cada decisão. O primeiro Revenue Operating System do Brasil.",
-  keywords: [
-    "revenue operations",
-    "revenue intelligence",
-    "AI agents",
-    "receita",
-    "RevOS",
-  ],
+  description: "AI-powered revenue intelligence that maps your entire revenue cycle, detects invisible leaks, and prescribes actions — customized to your business.",
+  keywords: ["revenue operations", "revenue intelligence", "AI agents", "RevOS", "revenue leakage", "revenue protection"],
   openGraph: {
-    title: "Revow — Revenue Operating System",
-    description: "Sua receita está vazando. A Revow encontra e protege.",
+    title: "Revow — From Blind Spots to Smart Signals",
+    description: "AI-powered revenue intelligence that maps your entire revenue cycle, detects invisible leaks, and prescribes actions.",
     url: "https://revow.ai",
     siteName: "Revow",
-    locale: "pt_BR",
+    locale: "en_US",
     type: "website",
   },
-  icons: {
-    icon: "/favicon.ico",
-  },
+  icons: { icon: "/favicon.ico" },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="pt-BR">
-      <body className={`${geistSans.variable} antialiased`}>
-        {children}
-      </body>
+    <html lang="en">
+      <body className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}>{children}</body>
     </html>
   );
 }
