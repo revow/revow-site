@@ -231,19 +231,19 @@ function Solutions() {
             <SimFunnel />
           </div></FadeUp>
           <FadeUp delay={150}><div>
+            <h3 className="text-sm font-bold text-accent uppercase tracking-wider mb-2">Funnel Intelligence</h3>
+            <p className="text-text-secondary mb-5">End-to-end conversion with baseline, target, and trend detection. Know where value is created and where it leaks.</p>
+            <SimConversion />
+          </div></FadeUp>
+          <FadeUp><div>
             <h3 className="text-sm font-bold text-accent uppercase tracking-wider mb-2">Alert Engine</h3>
             <p className="text-text-secondary mb-5">Every leak is classified by type and severity. Your team knows exactly what to do, not just that something is wrong.</p>
             <SimAlerts />
           </div></FadeUp>
-          <FadeUp><div>
+          <FadeUp delay={150}><div>
             <h3 className="text-sm font-bold text-accent uppercase tracking-wider mb-2">Revenue Copilot</h3>
             <p className="text-text-secondary mb-5">Ask questions in natural language — get answers grounded in your real data, with anti-hallucination safeguards built in.</p>
             <SimCopilot />
-          </div></FadeUp>
-          <FadeUp delay={150}><div>
-            <h3 className="text-sm font-bold text-accent uppercase tracking-wider mb-2">Funnel Intelligence</h3>
-            <p className="text-text-secondary mb-5">End-to-end conversion with baseline, target, and trend detection. Know where value is created and where it leaks.</p>
-            <SimConversion />
           </div></FadeUp>
         </div>
       </div>
