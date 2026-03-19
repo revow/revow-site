@@ -54,38 +54,38 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       <main>
         {/* HERO */}
         <section className="hero-light relative flex items-center pt-20 overflow-hidden">
-          <div className="relative z-10 mx-auto max-w-7xl px-6 py-12 md:py-16 grid md:grid-cols-2 gap-12 items-center">
-            <div>
+          <div className="relative z-10 mx-auto max-w-7xl px-6 py-16 md:py-24 grid md:grid-cols-12 gap-8 items-center">
+            <div className="md:col-span-5">
               <FadeUp>
-                <span className="inline-block rounded-full border border-accent/20 bg-accent-bg px-4 py-1.5 text-xs font-semibold text-accent uppercase tracking-wider mb-6">{t.hero.badge}</span>
+                <span className="inline-block rounded-full border border-accent/20 bg-accent-bg px-4 py-1.5 text-sm font-semibold text-accent uppercase tracking-wider mb-6">{t.hero.badge}</span>
               </FadeUp>
               <FadeUp delay={100}>
-                <h1 className="font-[family-name:var(--font-space-grotesk)] text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight text-text-primary">
+                <h1 className="font-[family-name:var(--font-space-grotesk)] text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.08] tracking-tight text-text-primary">
                   {t.hero.h1_1}<br />{t.hero.h1_2}{" "}<span className="text-accent">{t.hero.h1_3}</span>
                 </h1>
               </FadeUp>
               <FadeUp delay={200}>
-                <p className="mt-6 text-lg text-text-secondary max-w-lg leading-relaxed">{t.hero.sub}</p>
+                <p className="mt-6 text-xl text-text-secondary max-w-lg leading-relaxed">{t.hero.sub}</p>
               </FadeUp>
               <FadeUp delay={300}>
-                <p className="mt-3 text-base text-text-muted h-7"><Typewriter phrases={t.typewriter} /></p>
+                <p className="mt-3 text-lg text-text-muted h-8"><Typewriter phrases={t.typewriter} /></p>
               </FadeUp>
               <FadeUp delay={400}>
-                <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                <div className="mt-10 flex flex-col sm:flex-row gap-4">
                   <a href={wa} target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-7 py-3.5 text-base font-semibold text-white hover:bg-accent-light transition shadow-md shadow-accent/20">
+                    className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-8 py-4 text-lg font-semibold text-white hover:bg-accent-light transition shadow-md shadow-accent/20">
                     <WhatsAppIcon className="w-5 h-5" />{t.hero.cta1}
                   </a>
                   <a href="#solutions"
-                    className="inline-flex items-center justify-center rounded-full border border-border px-7 py-3.5 text-base font-medium text-text-secondary hover:border-accent/30 hover:text-accent transition">
+                    className="inline-flex items-center justify-center rounded-full border border-border px-8 py-4 text-lg font-medium text-text-secondary hover:border-accent/30 hover:text-accent transition">
                     {t.hero.cta2}
                   </a>
                 </div>
               </FadeUp>
             </div>
-            <FadeUp delay={200}>
-              <div className="relative">
-                <Image src="/images/bg.png" alt="Revow Revenue Operating System" width={560} height={560} className="w-full h-auto max-w-[560px] mx-auto mix-blend-screen" priority />
+            <FadeUp delay={200} className="md:col-span-7">
+              <div className="relative md:-mr-16 lg:-mr-24">
+                <Image src="/images/bg.png" alt="Revow Revenue Operating System" width={900} height={900} className="w-full h-auto mix-blend-screen scale-110 md:scale-125 origin-center" priority />
               </div>
             </FadeUp>
           </div>
