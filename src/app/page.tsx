@@ -36,8 +36,8 @@ function Header() {
 /* ═══════════ HERO ═══════════ */
 function Hero() {
   return (
-    <section className="hero-light relative min-h-screen flex items-center pt-20 overflow-hidden">
-      <div className="relative z-10 mx-auto max-w-7xl px-6 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
+    <section className="hero-light relative flex items-center pt-20 overflow-hidden">
+      <div className="relative z-10 mx-auto max-w-7xl px-6 py-12 md:py-16 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <FadeUp>
             <span className="inline-block rounded-full border border-accent/20 bg-accent-bg px-4 py-1.5 text-xs font-semibold text-accent uppercase tracking-wider mb-6">
@@ -77,13 +77,11 @@ function Hero() {
         </div>
         <FadeUp delay={200}>
           <div className="relative">
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src="/images/hero-platform2.png"
               alt="Revow Revenue Operating System — Three layers: Data, Intelligence, and Delivery"
-              width={800}
-              height={800}
-              className="rounded-2xl"
-              priority
+              className="w-full h-auto max-w-[540px] mx-auto drop-shadow-2xl"
             />
           </div>
         </FadeUp>
