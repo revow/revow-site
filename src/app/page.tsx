@@ -37,10 +37,10 @@ function Header() {
 function Hero() {
   return (
     <section className="hero-light relative flex items-center pt-20 overflow-hidden">
-      <div className="relative z-10 mx-auto max-w-7xl px-6 py-10 md:py-14 grid md:grid-cols-[2fr_1fr] gap-8 items-center">
+      <div className="relative z-10 mx-auto max-w-7xl px-6 py-12 md:py-16 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <FadeUp>
-            <span className="inline-block rounded-full border border-accent/20 bg-accent-bg px-4 py-1.5 text-xs font-semibold text-accent uppercase tracking-wider mb-4">
+            <span className="inline-block rounded-full border border-accent/20 bg-accent-bg px-4 py-1.5 text-xs font-semibold text-accent uppercase tracking-wider mb-6">
               Revenue Operating System
             </span>
           </FadeUp>
@@ -51,18 +51,18 @@ function Hero() {
             </h1>
           </FadeUp>
           <FadeUp delay={200}>
-            <p className="mt-4 text-lg text-text-secondary max-w-xl leading-relaxed">
+            <p className="mt-6 text-lg text-text-secondary max-w-lg leading-relaxed">
               AI-powered revenue intelligence that maps your entire revenue cycle,
               detects invisible leaks, and prescribes actions — customized to your business.
             </p>
           </FadeUp>
           <FadeUp delay={300}>
-            <p className="mt-2 text-base text-text-muted h-7">
+            <p className="mt-3 text-base text-text-muted h-7">
               <Typewriter />
             </p>
           </FadeUp>
           <FadeUp delay={400}>
-            <div className="mt-6 flex flex-col sm:flex-row gap-4">
+            <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a href={WHATSAPP} target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-7 py-3.5 text-base font-semibold text-white hover:bg-accent-light transition shadow-md shadow-accent/20">
                 <WhatsAppIcon className="w-5 h-5" />
