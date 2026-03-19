@@ -8,13 +8,24 @@ const data = Array.from({ length: 26 }, (_, i) => ({
   baseline: 3.2,
 }));
 
-export default function SimConversion() {
+interface SimConversionProps {
+  labels: {
+    label: string;
+    title: string;
+    current: string;
+    prior: string;
+    target: string;
+    above: string;
+  };
+}
+
+export default function SimConversion({ labels }: SimConversionProps) {
   return (
     <div className="sim-card p-6 space-y-5">
       <div className="flex items-center justify-between">
         <div>
-          <p className="text-[10px] text-text-muted uppercase tracking-widest font-medium">Funnel Intelligence</p>
-          <h3 className="text-base font-semibold text-text-primary mt-0.5">End-to-End Conversion</h3>
+          <p className="text-[10px] text-text-muted uppercase tracking-widest font-medium">{labels.label}</p>
+          <h3 className="text-base font-semibold text-text-primary mt-0.5">{labels.title}</h3>
         </div>
         <div className="text-right">
           <p className="text-3xl font-bold text-text-primary">3.54%</p>
@@ -23,17 +34,17 @@ export default function SimConversion() {
       </div>
       <div className="grid grid-cols-3 gap-2.5">
         <div className="rounded-xl bg-accent-bg border border-accent/10 p-3 text-center">
-          <p className="text-[10px] text-text-muted font-medium">Current</p>
+          <p className="text-[10px] text-text-muted font-medium">{labels.current}</p>
           <p className="text-lg font-bold text-accent">3.54%</p>
         </div>
         <div className="rounded-xl bg-bg-secondary border border-border p-3 text-center">
-          <p className="text-[10px] text-text-muted font-medium">Prior Year</p>
+          <p className="text-[10px] text-text-muted font-medium">{labels.prior}</p>
           <p className="text-lg font-bold text-text-secondary">2.94%</p>
         </div>
         <div className="rounded-xl bg-bg-secondary border border-border p-3 text-center">
-          <p className="text-[10px] text-text-muted font-medium">Target</p>
+          <p className="text-[10px] text-text-muted font-medium">{labels.target}</p>
           <p className="text-lg font-bold text-text-secondary">3.21%</p>
-          <span className="text-[10px] font-semibold text-emerald-600">Above target</span>
+          <span className="text-[10px] font-semibold text-emerald-600">{labels.above}</span>
         </div>
       </div>
       <div className="h-44">

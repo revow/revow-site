@@ -1,12 +1,5 @@
 "use client";
 
-const alerts = [
-  { type: "red", label: "Critical", msg: "Conversion drop detected in Stage 2 → Stage 3. Down 4.2pp vs baseline. Investigate qualification criteria." },
-  { type: "yellow", label: "Warning", msg: "To hit target of 2,385 units, 19,011 more leads needed. Required pace: 317/business day." },
-  { type: "green", label: "On Track", msg: "Weekly conversion trending up — 3.3% avg over last 4 weeks. Maintain current strategy." },
-  { type: "blue", label: "Insight", msg: "Revenue stable at +0.60pp vs D-364. Focus efforts on top-of-funnel volume for maximum impact." },
-];
-
 const styles: Record<string, string> = {
   red: "bg-red-50 border-l-[3px] border-l-red-500 text-red-800",
   yellow: "bg-amber-50 border-l-[3px] border-l-amber-500 text-amber-800",
@@ -21,18 +14,34 @@ const badges: Record<string, string> = {
   blue: "bg-sky-100 text-sky-700",
 };
 
-export default function SimAlerts() {
+const types = ["red", "yellow", "green", "blue"];
+
+interface SimAlertsProps {
+  labels: {
+    label: string;
+    title: string;
+    critical: string;
+    warning: string;
+    ontrack: string;
+    insight: string;
+    msgs: string[];
+  };
+}
+
+export default function SimAlerts({ labels }: SimAlertsProps) {
+  const badgeLabels = [labels.critical, labels.warning, labels.ontrack, labels.insight];
+
   return (
     <div className="sim-card p-6 space-y-4">
       <div>
-        <p className="text-[10px] text-text-muted uppercase tracking-widest font-medium">Alert Engine</p>
-        <h3 className="text-base font-semibold text-text-primary mt-0.5">Smart Alerts — Live</h3>
+        <p className="text-[10px] text-text-muted uppercase tracking-widest font-medium">{labels.label}</p>
+        <h3 className="text-base font-semibold text-text-primary mt-0.5">{labels.title}</h3>
       </div>
       <div className="space-y-2.5">
-        {alerts.map((a) => (
-          <div key={a.msg} className={`${styles[a.type]} rounded-lg px-4 py-3`}>
-            <span className={`inline-block text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full mb-1.5 ${badges[a.type]}`}>{a.label}</span>
-            <p className="text-sm leading-relaxed opacity-90">{a.msg}</p>
+        {labels.msgs.map((msg, i) => (
+          <div key={i} className={`${styles[types[i]]} rounded-lg px-4 py-3`}>
+            <span className={`inline-block text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full mb-1.5 ${badges[types[i]]}`}>{badgeLabels[i]}</span>
+            <p className="text-sm leading-relaxed opacity-90">{msg}</p>
           </div>
         ))}
       </div>

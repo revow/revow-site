@@ -18,7 +18,11 @@ export function middleware(request: NextRequest) {
 
   // Detect locale from Accept-Language header
   const acceptLang = request.headers.get("accept-language") ?? "";
-  const detectedLocale = acceptLang.includes("pt") ? "pt" : defaultLocale;
+  const detectedLocale = acceptLang.includes("pt")
+    ? "pt"
+    : acceptLang.includes("es")
+      ? "es"
+      : defaultLocale;
 
   // Redirect to locale-prefixed path
   request.nextUrl.pathname = `/${detectedLocale}${pathname}`;

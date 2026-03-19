@@ -12,31 +12,42 @@ const data = [
   { month: "Aug", current: 42100, baseline: 38600, target: 48000 },
 ];
 
-const stages = [
-  { label: "Leads", value: "48,359", pct: "—", delta: "+12.4%" },
-  { label: "Qualified", value: "35,035", pct: "72.4%", delta: "+8.1%" },
-  { label: "Converted", value: "27,364", pct: "78.1%", delta: "+3.2%" },
-  { label: "Revenue", value: "1,712", pct: "6.3%", delta: "-2.0%" },
+const stageData = [
+  { value: "48,359", pct: "—", delta: "+12.4%" },
+  { value: "35,035", pct: "72.4%", delta: "+8.1%" },
+  { value: "27,364", pct: "78.1%", delta: "+3.2%" },
+  { value: "1,712", pct: "6.3%", delta: "-2.0%" },
 ];
 
-export default function SimFunnel() {
+interface SimFunnelProps {
+  labels: {
+    label: string;
+    title: string;
+    current: string;
+    baseline: string;
+    target: string;
+    stages: string[];
+  };
+}
+
+export default function SimFunnel({ labels }: SimFunnelProps) {
   return (
     <div className="sim-card p-6 space-y-5">
       <div className="flex items-center justify-between">
         <div>
-          <p className="text-[10px] text-text-muted uppercase tracking-widest font-medium">Revenue Monitoring</p>
-          <h3 className="text-base font-semibold text-text-primary mt-0.5">Acquisition Funnel — Real-Time</h3>
+          <p className="text-[10px] text-text-muted uppercase tracking-widest font-medium">{labels.label}</p>
+          <h3 className="text-base font-semibold text-text-primary mt-0.5">{labels.title}</h3>
         </div>
         <div className="flex gap-4 text-[11px] text-text-muted">
-          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-accent" />Current</span>
-          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-gray-300" />Baseline</span>
-          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-accent-light opacity-40" />Target</span>
+          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-accent" />{labels.current}</span>
+          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-gray-300" />{labels.baseline}</span>
+          <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-accent-light opacity-40" />{labels.target}</span>
         </div>
       </div>
       <div className="grid grid-cols-4 gap-2.5">
-        {stages.map((s) => (
-          <div key={s.label} className="rounded-xl bg-bg-secondary p-3 text-center border border-border/60">
-            <p className="text-[10px] text-text-muted font-medium">{s.label}</p>
+        {stageData.map((s, i) => (
+          <div key={i} className="rounded-xl bg-bg-secondary p-3 text-center border border-border/60">
+            <p className="text-[10px] text-text-muted font-medium">{labels.stages[i]}</p>
             <p className="text-lg font-bold text-text-primary mt-0.5">{s.value}</p>
             <div className="flex items-center justify-center gap-1.5 mt-0.5">
               <span className="text-[10px] text-text-muted">{s.pct}</span>

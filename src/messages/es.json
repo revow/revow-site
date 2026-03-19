@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "solutions": "Soluciones",
+    "platform": "Plataforma",
+    "how": "Cómo Funciona",
+    "contact": "Contacto",
+    "cta": "Agendar una Demo",
+    "whatsapp_msg": "Hola, me gustaría saber más sobre Revow!"
+  },
+  "hero": {
+    "badge": "Revenue Operating System",
+    "h1_1": "De puntos ciegos",
+    "h1_2": "a",
+    "h1_3": "señales inteligentes.",
+    "sub": "Inteligencia de ingresos con IA que mapea todo tu ciclo de ingresos, detecta fugas invisibles y prescribe acciones — personalizada para tu negocio.",
+    "cta1": "Agendar una Demo",
+    "cta2": "Ver Cómo Funciona"
+  },
+  "typewriter": [
+    "monitorea embudos en tiempo real",
+    "detecta fugas de ingresos antes de que duelan",
+    "recibe alertas inteligentes cuando importa",
+    "conversa con tus datos a través de IA"
+  ],
+  "trust": {
+    "label": "Validado en múltiples industrias",
+    "verticals": ["Educación", "Combustibles y Energía", "Telecom", "Servicios Corporativos"]
+  },
+  "problem": {
+    "label": "El Problema",
+    "h2": "Las empresas pierden entre un 20 y 30% de sus ingresos por ineficiencia en procesos",
+    "sub": "Datos fragmentados, dashboards pasivos y procesos manuales crean puntos ciegos que drenan ingresos silenciosamente — todos los días.",
+    "items": [
+      { "title": "Silos de Datos", "desc": "KPIs desalineados entre Ventas, Marketing y CS enmascaran ineficiencias. Una campaña líder en MQLs frecuentemente destruye el CAC sin convertir." },
+      { "title": "Herramientas Pasivas", "desc": "El BI tradicional es un espejo retrovisor. Muestra lo que pasó, pero falla en diagnosticar dónde se rompió la operación o cómo arreglarlo en tiempo real." },
+      { "title": "Diagnóstico Manual", "desc": "El 90% de las fugas de ingresos no son encontradas por análisis humano. La búsqueda manual siempre pierde frente a la velocidad de las operaciones diarias." }
+    ]
+  },
+  "platform": {
+    "label": "La Plataforma",
+    "h2_1": "No es un dashboard.",
+    "h2_2": "Es un Sistema Operativo de Ingresos.",
+    "sub": "Tres capas trabajando juntas para ver, entender y proteger tus ingresos — de forma autónoma.",
+    "layers": [
+      { "n": "01", "title": "Capa de Datos", "subtitle": "Conecta", "desc": "Integra tus fuentes legadas (ERP, CRM, BigQuery, APIs), organizando y validando la integridad de los datos en tiempo real. Toda señal capturada, nada perdido." },
+      { "n": "02", "title": "Capa de Inteligencia", "subtitle": "Entiende", "desc": "El cerebro del sistema. Nuestra ontología propietaria de ingresos traduce la complejidad de tu negocio en un modelo formal validado — transformando conceptos sueltos en estados observables y accionables." },
+      { "n": "03", "title": "Capa de Entrega", "subtitle": "Actúa", "desc": "Dashboards activos con prescripción de acciones y Copilots multi-agente que interactúan directamente con tu línea de frente — vía plataforma, WhatsApp o API." }
+    ]
+  },
+  "solutions": {
+    "label": "Soluciones",
+    "h2": "Mira lo que tus ingresos realmente están haciendo",
+    "items": [
+      { "key": "monitoring", "title": "Monitoreo de Ingresos", "desc": "Seguimiento hora a hora con metodología PACE — cuatro curvas que reemplazan benchmarking ingenuo por precisión direccional." },
+      { "key": "funnel", "title": "Inteligencia de Embudo", "desc": "Conversión de extremo a extremo con baseline, meta y detección de tendencias. Sabe dónde se crea valor y dónde se fuga." },
+      { "key": "alerts", "title": "Motor de Alertas", "desc": "Cada fuga se clasifica por tipo y severidad. Tu equipo sabe exactamente qué hacer, no solo que algo está mal." },
+      { "key": "copilot", "title": "Revenue Copilot", "desc": "Haz preguntas en lenguaje natural — recibe respuestas basadas en tus datos reales, con protecciones anti-alucinación integradas." }
+    ]
+  },
+  "how": {
+    "label": "Cómo Funciona",
+    "h2_1": "Construido para",
+    "h2_accent": "tu",
+    "h2_2": "ciclo de ingresos",
+    "sub": "No es una plantilla. Es un sistema operativo de ingresos personalizado, diseñado en torno a cómo tu negocio realmente funciona.",
+    "steps": [
+      { "n": "01", "title": "Consultoría", "desc": "Estudiamos tus operaciones de ingresos, mapeamos cada punto de contacto y diseñamos una capa de inteligencia personalizada para tu negocio." },
+      { "n": "02", "title": "Conexión", "desc": "Integramos tus fuentes de datos en nuestra ontología propietaria de ingresos — el cerebro que entiende tu negocio como un sistema." },
+      { "n": "03", "title": "Protección", "desc": "Tu plataforma personalizada monitorea 24/7, detecta fugas, envía alertas inteligentes y prescribe acciones vía dashboard, WhatsApp o API." }
+    ]
+  },
+  "difference": {
+    "label": "Por qué Revow",
+    "h2": "Lo que ninguna otra plataforma hace",
+    "items": [
+      { "title": "Construido para tu ciclo de ingresos", "desc": "Cada implementación se diseña en torno a tus operaciones de ingresos específicas — no es una plantilla genérica." },
+      { "title": "Ontología propietaria de ingresos", "desc": "Un modelo formal que entiende ingresos como un sistema: estados, transiciones, eventos y reglas diagnósticas." },
+      { "title": "IA que sabe cuándo NO actuar", "desc": "Los Circuit Breakers evalúan la confianza en los datos y se niegan a recomendar cuando la confianza es baja. Anti-alucinación por diseño." },
+      { "title": "Validado en múltiples industrias", "desc": "El mismo motor de inteligencia validado en educación, combustibles, telecom y servicios — porque los ingresos siguen patrones universales." }
+    ]
+  },
+  "cta": {
+    "h2_1": "Protejamos tus ingresos —",
+    "h2_2": "juntos.",
+    "sub": "Habla directamente con nuestro equipo. Sin formularios, sin esperas.",
+    "whatsapp": "Hablar por WhatsApp",
+    "email": "Envíanos un Email"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
+  "sim": {
+    "funnel": {
+      "label": "Monitoreo de Ingresos",
+      "title": "Embudo de Captación — Tiempo Real",
+      "current": "Actual",
+      "baseline": "Baseline",
+      "target": "Meta",
+      "stages": ["Leads", "Calificados", "Convertidos", "Ingresos"]
+    },
+    "alerts": {
+      "label": "Motor de Alertas",
+      "title": "Alertas Inteligentes — En Vivo",
+      "critical": "Crítico",
+      "warning": "Atención",
+      "ontrack": "En Ritmo",
+      "insight": "Insight",
+      "msgs": [
+        "Caída de conversión detectada en Etapa 2 → Etapa 3. Baja de 4.2pp vs baseline. Investigar criterios de calificación.",
+        "Para alcanzar la meta de 2.385 unidades, faltan 19.011 leads. Ritmo necesario: 317/día hábil.",
+        "Conversión semanal en tendencia al alza — promedio de 3.3% en las últimas 4 semanas. Mantener estrategia actual.",
+        "Ingresos estables en +0.60pp vs D-364. Concentrar esfuerzos en volumen del tope del embudo para máximo impacto."
+      ]
+    },
+    "copilot": {
+      "label": "Revenue Copilot",
+      "title": "Diagnóstico con IA",
+      "placeholder": "Pregunta sobre tus ingresos..."
+    },
+    "conversion": {
+      "label": "Inteligencia de Embudo",
+      "title": "Conversión de Extremo a Extremo",
+      "current": "Actual",
+      "prior": "Año Anterior",
+      "target": "Meta",
+      "above": "Por encima de la meta"
+    }
+  }
+}
