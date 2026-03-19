@@ -1,12 +1,10 @@
 import Image from "next/image";
-import dynamic from "next/dynamic";
 import FadeUp from "@/components/FadeUp";
-
-const Typewriter = dynamic(() => import("@/components/Typewriter"), { ssr: false });
-const SimFunnel = dynamic(() => import("@/components/SimFunnel"), { ssr: false });
-const SimAlerts = dynamic(() => import("@/components/SimAlerts"), { ssr: false });
-const SimCopilot = dynamic(() => import("@/components/SimCopilot"), { ssr: false });
-const SimConversion = dynamic(() => import("@/components/SimConversion"), { ssr: false });
+import Typewriter from "@/components/Typewriter";
+import SimFunnel from "@/components/SimFunnel";
+import SimAlerts from "@/components/SimAlerts";
+import SimCopilot from "@/components/SimCopilot";
+import SimConversion from "@/components/SimConversion";
 
 const WHATSAPP = "https://wa.me/5521988889760?text=Hi%2C%20I%27d%20like%20to%20learn%20more%20about%20Revow!";
 const DEMO_CTA = WHATSAPP;
