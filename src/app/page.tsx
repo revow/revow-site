@@ -79,7 +79,7 @@ function Hero() {
           <div className="relative">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/hero-platform2.png"
+              src="/images/background_hero.png"
               alt="Revow Revenue Operating System — Three layers: Data, Intelligence, and Delivery"
               className="w-full h-auto max-w-[540px] mx-auto drop-shadow-2xl"
             />
