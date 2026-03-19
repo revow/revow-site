@@ -79,9 +79,9 @@ function Hero() {
           <div className="relative">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/background_hero.png"
+              src="/images/bg.png"
               alt="Revow Revenue Operating System — Three layers: Data, Intelligence, and Delivery"
-              className="w-full h-auto max-w-[540px] mx-auto drop-shadow-2xl"
+              className="w-full h-auto max-w-[560px] mx-auto mix-blend-screen"
             />
           </div>
         </FadeUp>
