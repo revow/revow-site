@@ -75,44 +75,16 @@ function Hero() {
             </div>
           </FadeUp>
         </div>
-        {/* HERO IMAGE AREA — Replace with AI-generated image */}
         <FadeUp delay={200}>
           <div className="relative">
-            {/*
-              ═══════════════════════════════════════════════
-              PROMPT TO GENERATE THIS IMAGE (Gemini/Midjourney):
-
-              "Isometric 3D illustration of a Revenue Operating System.
-              Three floating translucent glass layers stacked vertically:
-
-              Bottom layer: databases, servers, and API connections with
-              small data streams flowing upward (labeled 'Data Layer').
-
-              Middle layer: a neural network/graph visualization with
-              interconnected nodes glowing softly (labeled 'Intelligence Layer').
-
-              Top layer: a clean modern dashboard with charts, alerts,
-              and a chat interface (labeled 'Delivery Layer').
-
-              Teal/cyan accent color (#0093b4) on white/light gray background.
-              Subtle shadows, clean lines, premium SaaS aesthetic.
-              The Revow logo (teal flower icon) floating above the top layer.
-              Style: modern tech illustration, flat with subtle 3D depth.
-              NO text on the image. Aspect ratio: 1:1, 800x800px."
-              ═══════════════════════════════════════════════
-            */}
-            <div className="aspect-square rounded-3xl bg-gradient-to-br from-accent/5 via-accent-bg to-transparent border border-border flex items-center justify-center">
-              <div className="text-center p-8 space-y-6">
-                <div className="space-y-4">
-                  <div className="mx-auto w-48 h-12 rounded-xl bg-accent/8 border border-accent/15 flex items-center justify-center text-sm text-accent font-medium">Delivery Layer</div>
-                  <div className="mx-auto w-40 h-0.5 border-l-2 border-dashed border-accent/20 rotate-90 h-6" />
-                  <div className="mx-auto w-48 h-12 rounded-xl bg-accent/8 border border-accent/15 flex items-center justify-center text-sm text-accent font-medium">Intelligence Layer</div>
-                  <div className="mx-auto w-40 h-0.5 border-l-2 border-dashed border-accent/20 rotate-90 h-6" />
-                  <div className="mx-auto w-48 h-12 rounded-xl bg-accent/8 border border-accent/15 flex items-center justify-center text-sm text-accent font-medium">Data Layer</div>
-                </div>
-                <p className="text-xs text-text-muted">Replace with AI-generated image — see prompt in source code</p>
-              </div>
-            </div>
+            <Image
+              src="/images/hero-platform.png"
+              alt="Revow Revenue Operating System — Three layers: Data, Intelligence, and Delivery"
+              width={800}
+              height={800}
+              className="rounded-2xl"
+              priority
+            />
           </div>
         </FadeUp>
       </div>
