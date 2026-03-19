@@ -78,7 +78,7 @@ function Hero() {
         <FadeUp delay={200}>
           <div className="relative">
             <Image
-              src="/images/hero-platform.png"
+              src="/images/hero-platform2.png"
               alt="Revow Revenue Operating System — Three layers: Data, Intelligence, and Delivery"
               width={800}
               height={800}
