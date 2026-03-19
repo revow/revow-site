@@ -1,0 +1,128 @@
+{
+  "nav": {
+    "solutions": "Solutions",
+    "platform": "Platform",
+    "how": "How It Works",
+    "contact": "Contact",
+    "cta": "Book a Demo"
+  },
+  "hero": {
+    "badge": "Revenue Operating System",
+    "h1_1": "From blind spots",
+    "h1_2": "to",
+    "h1_3": "smart signals.",
+    "sub": "AI-powered revenue intelligence that maps your entire revenue cycle, detects invisible leaks, and prescribes actions — customized to your business.",
+    "cta1": "Book a Demo",
+    "cta2": "See How It Works"
+  },
+  "typewriter": [
+    "monitor funnels in real time",
+    "detect revenue leaks before they hurt",
+    "get intelligent alerts when it matters",
+    "talk to your data through AI"
+  ],
+  "trust": {
+    "label": "Trusted across multiple industries",
+    "verticals": ["Education", "Fuel & Energy", "Telecom", "Enterprise Services"]
+  },
+  "problem": {
+    "label": "The Problem",
+    "h2": "Companies lose 20–30% of revenue to process inefficiency",
+    "sub": "Fragmented data, passive dashboards, and manual processes create blind spots that drain revenue silently — every single day.",
+    "items": [
+      { "title": "Data Silos", "desc": "Misaligned KPIs across Sales, Marketing, and CS mask inefficiency. A campaign leading in MQLs often destroys CAC without converting." },
+      { "title": "Passive Tools", "desc": "Traditional BI is a rearview mirror. It shows what happened but fails to diagnose where operations broke or how to fix them in real time." },
+      { "title": "Manual Diagnosis", "desc": "90% of revenue leaks aren't found by human analysis. Manual search always loses to the speed of daily operations." }
+    ]
+  },
+  "platform": {
+    "label": "The Platform",
+    "h2_1": "Not a dashboard.",
+    "h2_2": "A Revenue Operating System.",
+    "sub": "Three layers working together to see, understand, and protect your revenue — autonomously.",
+    "layers": [
+      { "n": "01", "title": "Data Layer", "subtitle": "Connect", "desc": "Integrates your legacy sources (ERP, CRM, BigQuery, APIs), organizing and validating data integrity in real time. Every signal captured, nothing lost." },
+      { "n": "02", "title": "Intelligence Layer", "subtitle": "Understand", "desc": "The brain of the system. Our proprietary revenue ontology translates your business complexity into a validated formal model — turning loose concepts into observable, actionable states." },
+      { "n": "03", "title": "Delivery Layer", "subtitle": "Act", "desc": "Active dashboards with action prescriptions and multi-agent AI Copilots that interact directly with your front line — via platform, WhatsApp, or API." }
+    ]
+  },
+  "solutions": {
+    "label": "Solutions",
+    "h2": "See what your revenue is really doing",
+    "items": [
+      { "key": "monitoring", "title": "Revenue Monitoring", "desc": "Real-time hourly tracking with PACE methodology — four curves that replace naive benchmarking with directional precision." },
+      { "key": "funnel", "title": "Funnel Intelligence", "desc": "End-to-end conversion with baseline, target, and trend detection. Know where value is created and where it leaks." },
+      { "key": "alerts", "title": "Alert Engine", "desc": "Every leak is classified by type and severity. Your team knows exactly what to do, not just that something is wrong." },
+      { "key": "copilot", "title": "Revenue Copilot", "desc": "Ask questions in natural language — get answers grounded in your real data, with anti-hallucination safeguards built in." }
+    ]
+  },
+  "how": {
+    "label": "How It Works",
+    "h2_1": "Built for",
+    "h2_accent": "your",
+    "h2_2": "revenue cycle",
+    "sub": "Not a template. A custom revenue operating system engineered around how your business actually works.",
+    "steps": [
+      { "n": "01", "title": "Consult", "desc": "We study your revenue operations, map every touchpoint, and design a custom intelligence layer tailored to your business." },
+      { "n": "02", "title": "Connect", "desc": "We integrate your data sources into our proprietary revenue ontology — the brain that understands your business as a system." },
+      { "n": "03", "title": "Protect", "desc": "Your custom platform monitors 24/7, detects leaks, sends smart alerts, and prescribes actions via dashboard, WhatsApp, or API." }
+    ]
+  },
+  "difference": {
+    "label": "Why Revow",
+    "h2": "What no other platform does",
+    "items": [
+      { "title": "Custom-built for your revenue cycle", "desc": "Every deployment is engineered around your specific revenue operations — not a one-size-fits-all template." },
+      { "title": "Proprietary revenue ontology", "desc": "A formal model that understands revenue as a system: states, transitions, events, and diagnostic rules." },
+      { "title": "AI that knows when NOT to act", "desc": "Circuit Breakers evaluate data confidence and refuse to recommend when trust is low. Anti-hallucination by design." },
+      { "title": "Proven across industries", "desc": "The same intelligence engine validated in education, fuel retail, telecom, and services — because revenue follows universal patterns." }
+    ]
+  },
+  "cta": {
+    "h2_1": "Let's protect your revenue —",
+    "h2_2": "together.",
+    "sub": "Talk directly to our team. No forms, no waiting.",
+    "whatsapp": "Talk on WhatsApp",
+    "email": "Email Us"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "sim": {
+    "funnel": {
+      "label": "Revenue Monitoring",
+      "title": "Acquisition Funnel — Real-Time",
+      "current": "Current",
+      "baseline": "Baseline",
+      "target": "Target",
+      "stages": ["Leads", "Qualified", "Converted", "Revenue"]
+    },
+    "alerts": {
+      "label": "Alert Engine",
+      "title": "Smart Alerts — Live",
+      "critical": "Critical",
+      "warning": "Warning",
+      "ontrack": "On Track",
+      "insight": "Insight",
+      "msgs": [
+        "Conversion drop detected in Stage 2 → Stage 3. Down 4.2pp vs baseline. Investigate qualification criteria.",
+        "To hit target of 2,385 units, 19,011 more leads needed. Required pace: 317/business day.",
+        "Weekly conversion trending up — 3.3% avg over last 4 weeks. Maintain current strategy.",
+        "Revenue stable at +0.60pp vs D-364. Focus efforts on top-of-funnel volume for maximum impact."
+      ]
+    },
+    "copilot": {
+      "label": "Revenue Copilot",
+      "title": "AI-Powered Diagnostics",
+      "placeholder": "Ask about your revenue..."
+    },
+    "conversion": {
+      "label": "Funnel Intelligence",
+      "title": "End-to-End Conversion",
+      "current": "Current",
+      "prior": "Prior Year",
+      "target": "Target",
+      "above": "Above target"
+    }
+  }
+}

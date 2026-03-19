@@ -1,0 +1,128 @@
+{
+  "nav": {
+    "solutions": "Soluções",
+    "platform": "Plataforma",
+    "how": "Como Funciona",
+    "contact": "Contato",
+    "cta": "Agende uma Demo"
+  },
+  "hero": {
+    "badge": "Revenue Operating System",
+    "h1_1": "De pontos cegos",
+    "h1_2": "a",
+    "h1_3": "sinais inteligentes.",
+    "sub": "Inteligência de receita com IA que mapeia todo o ciclo de receita, detecta vazamentos invisíveis e prescreve ações — personalizada para o seu negócio.",
+    "cta1": "Agende uma Demo",
+    "cta2": "Veja Como Funciona"
+  },
+  "typewriter": [
+    "monitore funis em tempo real",
+    "detecte vazamentos antes que virem prejuízo",
+    "receba alertas inteligentes quando importa",
+    "converse com seus dados via IA"
+  ],
+  "trust": {
+    "label": "Validado em múltiplas indústrias",
+    "verticals": ["Educação", "Combustíveis & Energia", "Telecom", "Serviços Corporativos"]
+  },
+  "problem": {
+    "label": "O Problema",
+    "h2": "Empresas perdem de 20 a 30% da receita por ineficiência de processos",
+    "sub": "Dados fragmentados, dashboards passivos e processos manuais criam pontos cegos que drenam receita silenciosamente — todos os dias.",
+    "items": [
+      { "title": "Silos de Dados", "desc": "KPIs desalinhados entre Vendas, Marketing e CS mascaram ineficiência. Uma campanha líder em MQLs frequentemente destrói o CAC sem converter." },
+      { "title": "Ferramentas Passivas", "desc": "O BI tradicional é um espelho retrovisor. Mostra o que aconteceu, mas falha em diagnosticar onde a operação quebrou ou como consertar em tempo real." },
+      { "title": "Diagnóstico Manual", "desc": "90% dos vazamentos de receita não são encontrados por análise humana. A busca manual sempre perde para a velocidade das operações diárias." }
+    ]
+  },
+  "platform": {
+    "label": "A Plataforma",
+    "h2_1": "Não é um dashboard.",
+    "h2_2": "É um Sistema Operacional de Receita.",
+    "sub": "Três camadas trabalhando juntas para ver, entender e proteger sua receita — de forma autônoma.",
+    "layers": [
+      { "n": "01", "title": "Camada de Dados", "subtitle": "Conecta", "desc": "Integra fontes legadas (ERP, CRM, BigQuery, APIs), organizando e validando a integridade dos dados em tempo real. Todo sinal capturado, nada perdido." },
+      { "n": "02", "title": "Camada de Inteligência", "subtitle": "Entende", "desc": "O cérebro do sistema. Nossa ontologia proprietária de receita traduz a complexidade do negócio em um modelo formal validado — transformando conceitos soltos em estados observáveis e acionáveis." },
+      { "n": "03", "title": "Camada de Entrega", "subtitle": "Age", "desc": "Dashboards ativos com prescrição de ações e Copilots multi-agente que interagem diretamente com a linha de frente — via plataforma, WhatsApp ou API." }
+    ]
+  },
+  "solutions": {
+    "label": "Soluções",
+    "h2": "Veja o que sua receita realmente está fazendo",
+    "items": [
+      { "key": "monitoring", "title": "Monitoramento de Receita", "desc": "Acompanhamento hora a hora com metodologia PACE — quatro curvas que substituem benchmarking ingênuo por precisão direcional." },
+      { "key": "funnel", "title": "Inteligência de Funil", "desc": "Conversão ponta a ponta com baseline, meta e detecção de tendência. Saiba onde valor é criado e onde ele vaza." },
+      { "key": "alerts", "title": "Motor de Alertas", "desc": "Cada vazamento é classificado por tipo e severidade. Sua equipe sabe exatamente o que fazer, não apenas que algo está errado." },
+      { "key": "copilot", "title": "Revenue Copilot", "desc": "Faça perguntas em linguagem natural — receba respostas baseadas nos seus dados reais, com proteções anti-alucinação embutidas." }
+    ]
+  },
+  "how": {
+    "label": "Como Funciona",
+    "h2_1": "Construído para o",
+    "h2_accent": "seu",
+    "h2_2": "ciclo de receita",
+    "sub": "Não é um template. É um sistema operacional de receita personalizado, engenhado em torno de como seu negócio realmente funciona.",
+    "steps": [
+      { "n": "01", "title": "Consultoria", "desc": "Estudamos suas operações de receita, mapeamos cada ponto de contato e desenhamos uma camada de inteligência customizada para o seu negócio." },
+      { "n": "02", "title": "Conexão", "desc": "Integramos suas fontes de dados à nossa ontologia proprietária de receita — o cérebro que entende seu negócio como um sistema." },
+      { "n": "03", "title": "Proteção", "desc": "Sua plataforma customizada monitora 24/7, detecta vazamentos, envia alertas inteligentes e prescreve ações via dashboard, WhatsApp ou API." }
+    ]
+  },
+  "difference": {
+    "label": "Por que a Revow",
+    "h2": "O que nenhuma outra plataforma faz",
+    "items": [
+      { "title": "Construído para o seu ciclo de receita", "desc": "Cada implantação é engenhada em torno das suas operações de receita específicas — não é um template genérico." },
+      { "title": "Ontologia proprietária de receita", "desc": "Um modelo formal que entende receita como um sistema: estados, transições, eventos e regras diagnósticas." },
+      { "title": "IA que sabe quando NÃO agir", "desc": "Circuit Breakers avaliam a confiança nos dados e se recusam a recomendar quando a confiança é baixa. Anti-alucinação por design." },
+      { "title": "Validado em múltiplas indústrias", "desc": "O mesmo motor de inteligência validado em educação, combustíveis, telecom e serviços — porque receita segue padrões universais." }
+    ]
+  },
+  "cta": {
+    "h2_1": "Vamos proteger sua receita —",
+    "h2_2": "juntos.",
+    "sub": "Fale diretamente com nosso time. Sem formulário, sem espera.",
+    "whatsapp": "Fale pelo WhatsApp",
+    "email": "Envie um Email"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  },
+  "sim": {
+    "funnel": {
+      "label": "Monitoramento de Receita",
+      "title": "Funil de Captação — Tempo Real",
+      "current": "Atual",
+      "baseline": "Baseline",
+      "target": "Meta",
+      "stages": ["Leads", "Qualificados", "Convertidos", "Receita"]
+    },
+    "alerts": {
+      "label": "Motor de Alertas",
+      "title": "Alertas Inteligentes — Ao Vivo",
+      "critical": "Crítico",
+      "warning": "Atenção",
+      "ontrack": "No Ritmo",
+      "insight": "Insight",
+      "msgs": [
+        "Queda de conversão detectada no Estágio 2 → Estágio 3. Queda de 4.2pp vs baseline. Investigar critérios de qualificação.",
+        "Para atingir meta de 2.385 unidades, faltam 19.011 leads. Ritmo necessário: 317/dia útil.",
+        "Conversão semanal em tendência de alta — média de 3.3% nas últimas 4 semanas. Manter estratégia atual.",
+        "Receita estável em +0.60pp vs D-364. Concentrar esforços em volume no topo do funil para máximo impacto."
+      ]
+    },
+    "copilot": {
+      "label": "Revenue Copilot",
+      "title": "Diagnóstico com IA",
+      "placeholder": "Pergunte sobre sua receita..."
+    },
+    "conversion": {
+      "label": "Inteligência de Funil",
+      "title": "Conversão Ponta a Ponta",
+      "current": "Atual",
+      "prior": "Ano Anterior",
+      "target": "Meta",
+      "above": "Acima da meta"
+    }
+  }
+}

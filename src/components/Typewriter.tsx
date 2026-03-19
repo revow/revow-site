@@ -1,14 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 
-const phrases = [
+const defaultPhrases = [
   "monitor funnels in real time",
   "detect revenue leaks before they hurt",
   "get intelligent alerts when it matters",
   "talk to your data through AI",
 ];
 
-export default function Typewriter() {
+export default function Typewriter({ phrases = defaultPhrases }: { phrases?: string[] }) {
   const [text, setText] = useState("");
   const [phraseIdx, setPhraseIdx] = useState(0);
   const [charIdx, setCharIdx] = useState(0);
@@ -33,7 +33,7 @@ export default function Typewriter() {
       setCharIdx((prev) => prev + (deleting ? -1 : 1));
     }, speed);
     return () => clearTimeout(t);
-  }, [charIdx, deleting, phraseIdx]);
+  }, [charIdx, deleting, phraseIdx, phrases]);
 
   return (
     <span className="text-accent">
