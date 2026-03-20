@@ -53,8 +53,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
       <main>
         {/* HERO */}
-        <section className="hero-light relative flex items-center pt-20 overflow-hidden">
-          <div className="relative z-10 mx-auto max-w-7xl px-6 py-16 md:py-24 grid md:grid-cols-12 gap-8 items-center">
+        <section className="hero-light relative flex items-center pt-16 overflow-hidden">
+          <div className="relative z-10 mx-auto max-w-7xl px-6 py-6 md:py-10 grid md:grid-cols-12 gap-8 items-center">
             <div className="md:col-span-5">
               <FadeUp>
                 <span className="inline-block rounded-full border border-accent/20 bg-accent-bg px-4 py-1.5 text-sm font-semibold text-accent uppercase tracking-wider mb-6">{t.hero.badge}</span>
