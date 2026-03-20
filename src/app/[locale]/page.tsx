@@ -84,8 +84,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </FadeUp>
             </div>
             <FadeUp delay={200} className="md:col-span-7">
-              <div className="relative md:-mr-16 lg:-mr-24">
-                <Image src="/images/bg.png" alt="Revow Revenue Operating System" width={900} height={900} className="w-full h-auto mix-blend-screen scale-110 md:scale-125 origin-center" priority />
+              <div className="relative md:-mr-8 lg:-mr-12">
+                <Image src="/images/bg.png" alt="Revow Revenue Operating System" width={800} height={800} className="w-full h-auto mix-blend-screen scale-105 md:scale-110 origin-center" priority />
               </div>
             </FadeUp>
           </div>
