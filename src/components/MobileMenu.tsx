@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 interface MobileMenuProps {
-  nav: { solutions: string; platform: string; how: string; contact: string };
+  nav: { solutions: string; platform: string; how: string; contact: string; demo?: string };
   blogLabel?: string;
   locale?: string;
 }
@@ -34,6 +34,12 @@ export default function MobileMenu({ nav, blogLabel, locale }: MobileMenuProps) 
           <a href="#how" onClick={() => setOpen(false)} className="hover:text-accent transition">{nav.how}</a>
           {blogLabel && locale && <a href={`/${locale}/blog`} onClick={() => setOpen(false)} className="hover:text-accent transition">{blogLabel}</a>}
           <a href="mailto:mariana@revow.ai" onClick={() => setOpen(false)} className="hover:text-accent transition">{nav.contact}</a>
+          {nav.demo && (
+            <a href="https://demo.revow.ai" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}
+              className="inline-flex items-center justify-center rounded-full border border-accent px-5 py-2.5 text-sm font-semibold text-accent hover:bg-accent hover:text-white transition">
+              {nav.demo}
+            </a>
+          )}
         </nav>
       )}
     </div>

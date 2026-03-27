@@ -135,12 +135,22 @@ export default async function ArticlePage({
                   {t.ebook.h1}
                 </h2>
                 <p className="mt-3 text-white/50 max-w-lg mx-auto text-sm">{t.ebook.sub}</p>
-                <Link
-                  href={`/${locale}/ebook`}
-                  className="mt-6 inline-flex items-center justify-center rounded-full bg-accent-light px-8 py-3 text-sm font-semibold text-white hover:bg-accent-glow transition shadow-md shadow-accent-light/20"
-                >
-                  {t.ebook.cta}
-                </Link>
+                <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+                  <Link
+                    href={`/${locale}/ebook`}
+                    className="inline-flex items-center justify-center rounded-full bg-accent-light px-8 py-3 text-sm font-semibold text-white hover:bg-accent-glow transition shadow-md shadow-accent-light/20"
+                  >
+                    {t.ebook.cta}
+                  </Link>
+                  <a
+                    href="https://demo.revow.ai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center rounded-full border border-white/30 px-8 py-3 text-sm font-semibold text-white/80 hover:border-white hover:text-white transition"
+                  >
+                    {t.blog.demo_cta}
+                  </a>
+                </div>
               </div>
             </div>
           </FadeUp>
