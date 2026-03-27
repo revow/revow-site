@@ -5,7 +5,7 @@ export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   // Skip static files and api routes
-  if (pathname.startsWith("/_next") || pathname.startsWith("/images") || pathname.includes(".")) {
+  if (pathname.startsWith("/_next") || pathname.startsWith("/images") || pathname.startsWith("/api") || pathname.includes(".")) {
     return;
   }
 
@@ -30,5 +30,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next|images|favicon.ico|.*\\..*).*)"],
+  matcher: ["/((?!_next|images|api|favicon.ico|.*\\..*).*)"],
 };
