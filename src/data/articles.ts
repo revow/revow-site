@@ -11,263 +11,266 @@ export interface Article {
 export const articles: Article[] = [
   {
     slug: "fracasso-modelo-mental-errado",
-    title: "O fracasso nao vem da falta de esforco. Vem do modelo mental errado.",
+    title: "O fracasso não vem da falta de esforço. Vem do modelo mental errado.",
     date: "2026-01-28",
     excerpt:
-      "Hoje, um executivo de Receita sem visao sistemica esta fadado ao fracasso. Se a base da sua gestao e linear, o resultado sera insustentavel.",
-    axioms: ["Gestao Sistemica", "Zona de Cegueira"],
+      "Hoje, um executivo de Receita sem visão sistêmica está fadado ao fracasso. Se a base da sua gestão é linear, o resultado será insustentável.",
+    axioms: ["Gestão Sistêmica", "Zona de Cegueira"],
     locale: "pt",
-    content: `## A ilusao da linearidade
+    content: `## A ilusão da linearidade
 
-A crenca predominante e que a Receita e uma equacao linear: basta aumentar o volume na entrada para garantir o resultado na saida.
+A crença predominante é que a Receita é uma equação linear: basta aumentar o volume na entrada para garantir o resultado na saída.
 
-O problema? Esse modelo incentiva a otimizacao de silos. Quando voce melhora uma parte sem entender as conexoes, voce frequentemente piora o sistema inteiro. Em casos extremos, a busca por eficiencia local quebra a operacao de vez.
+O problema? Esse modelo incentiva a otimização de silos. Quando você melhora uma parte sem entender as conexões, você frequentemente piora o sistema inteiro. Em casos extremos, a busca por eficiência local quebra a operação de vez.
 
-## Sua operacao e um organismo vivo
+## Sua operação é um organismo vivo
 
-Esqueca as planilhas e dashboards estaticos. Variaveis como DemandState e CapacityState alteram o comportamento umas das outras em tempo real.
+Esqueça as planilhas e dashboards estáticos. Variáveis como DemandState e CapacityState alteram o comportamento umas das outras em tempo real.
 
-A interacao entre elas cria dinamicas que o modelo linear nao captura:
+A interação entre elas cria dinâmicas que o modelo linear não captura:
 
-- Dependencias e atrasos
-- Gargalos e ociosidades
-- Pontos de ruptura subitos
+- Dependências e atrasos;
+- Gargalos e ociosidades;
+- Pontos de ruptura súbitos.
 
-Sistemas vivos sao instaveis. Uma mudanca na demanda ou uma decisao errada de capacidade desestabiliza todo o fluxo rapidamente.
+Sistemas vivos são instáveis. Uma mudança na demanda ou uma decisão errada de capacidade desestabiliza todo o fluxo rapidamente.
 
 ## Pare de dirigir pelo retrovisor
 
-Se a sua gestao e baseada apenas em resultados passados, voce esta cego para o contexto atual. E o famoso dirigir olhando pelo retrovisor.
+Se a sua gestão é baseada apenas em resultados passados, você está cego para o contexto atual. É o famoso dirigir olhando pelo retrovisor.
 
-Empresas perdem ate 30% de sua receita anual devido a essas ineficiencias de processo.
+Empresas perdem até 30% de sua receita anual devido a essas ineficiências de processo.
 
-Quem so mede resultado, corrige tarde demais. Quando o problema aparece nos relatorios, o sistema ja quebrou semanas atras. Voce cria o que chamamos de Zona de Cegueira.
+Quem só mede resultado, corrige tarde demais. Quando o problema aparece nos relatórios, o sistema já quebrou semanas atrás. Você cria o que chamamos de Zona de Cegueira.
 
 ## O novo papel do Executivo
 
-O trabalho nao e apenas bater meta. E governar com maestria um sistema em movimento. O executivo moderno precisa ser um engenheiro de receita, capaz de orquestrar fluxos e as dependencias entre marketing, vendas e sucesso do cliente.
+O trabalho não é apenas bater meta. É governar com maestria um sistema em movimento. O executivo moderno precisa ser um engenheiro de receita, capaz de orquestrar fluxos e as dependências entre marketing, vendas e sucesso do cliente.
 
-Na Gestao Linear, voce reage ao numero final. Na Gestao Sistemica, voce monitora o comportamento do fluxo e se antecipa a ele. A mudanca de mentalidade e inegociavel.
+Na Gestão Linear, você reage ao número final. Na Gestão Sistêmica, você monitora o comportamento do fluxo e se antecipa a ele. A mudança de mentalidade é inegociável.
 
-Voce nao pode controlar o caos do mercado, mas pode controlar como seu sistema responde a ele.
+Você não pode controlar o caos do mercado, mas pode controlar como seu sistema responde a ele.
 
-*Sua operacao hoje e movida a reacoes tardias ou a sinais em tempo real?*`,
+*Sua operação hoje é movida a reações tardias ou a sinais em tempo real?*`,
   },
   {
     slug: "maquina-vendas-fabrica-receita",
-    title: 'Da "Maquina de Vendas" a "Fabrica de Receita"',
+    title: 'Da "Máquina de Vendas" à "Fábrica de Receita"',
     date: "2026-02-03",
     excerpt:
-      "O termo Maquina de Vendas foi um marco na gestao de startups. Mas na complexidade atual, a maquina tornou-se limitada. Precisamos falar sobre a Fabrica de Receita.",
-    axioms: ["Fabrica de Receita", "Engenharia de Receita", "RevenueStream"],
+      "O termo Máquina de Vendas foi um marco na gestão de startups. Mas na complexidade atual, a máquina tornou-se limitada. Precisamos falar sobre a Fábrica de Receita.",
+    axioms: ["Fábrica de Receita", "Engenharia de Receita", "RevenueStream"],
     locale: "pt",
-    content: `O termo Maquina de Vendas foi um marco na gestao principalmente de startups que estavam escalando. Ele nos ensinou a importancia da repetibilidade e do processo. Mas, na velocidade e complexidade do mercado atual, a maquina tornou-se limitada. Ela foca no volume, mas ignora a eficiencia. Para o proximo nivel de maturidade, precisamos falar sobre a Fabrica de Receita. A diferenca nao e apenas semantica; e uma mudanca de paradigma na Engenharia de Receita.
+    content: `O termo Máquina de Vendas foi um marco na gestão principalmente de startups que estavam escalando. Ele nos ensinou a importância da repetibilidade e do processo. Mas, na velocidade e complexidade do mercado atual, a máquina tornou-se limitada. Ela foca no volume, mas ignora a eficiência. Para o próximo nível de maturidade, precisamos falar sobre a Fábrica de Receita. A diferença não é apenas semântica; é uma mudança de paradigma na Engenharia de Receita.
 
-## A Maquina de Vendas e a Caixa Preta do Lead
+## A Máquina de Vendas e a Caixa Preta do Lead
 
-A visao tradicional de maquina trata a receita como uma equacao linear: voce coloca Leads de um lado e espera o FinancialOutcome do outro. O problema? Ela e uma caixa preta.
+A visão tradicional de máquina trata a receita como uma equação linear: você coloca Leads de um lado e espera o FinancialOutcome do outro. O problema? Ela é uma caixa preta.
 
-Muitas vezes, o executivo so enxerga o topo e o fundo do funil. Coloca insumo de um lado, espera o resultado do outro.
+Muitas vezes, o executivo só enxerga o topo e o fundo do funil. Coloca insumo de um lado, espera o resultado do outro.
 
-Ignora-se o que acontece no meio: o SystemDelay (atraso do sistema), os gargalos invisiveis e, principalmente, a saude financeira do fluxo.
+Ignora-se o que acontece no meio: o SystemDelay (atraso do sistema), os gargalos invisíveis e, principalmente, a saúde financeira do fluxo.
 
-Se uma engrenagem trava, voce so descobre quando a meta do mes nao bate.
+Se uma engrenagem trava, você só descobre quando a meta do mês — o seu resultado passado — não bate.
 
-## A Fabrica de Receita: Visibilidade e Margem no Centro
+## A Fábrica de Receita: Visibilidade e Margem no Centro
 
-Parece uma diferenca sutil, mas para um Engenheiro de Receita, ela muda tudo. Em uma fabrica, nao existem caixas pretas. Existem estacoes de trabalho coordenadas e fluxos de materiais (RevenueStream) monitorados em tempo real.
+Parece uma diferença sutil, mas para um Engenheiro de Receita, ela muda tudo. Em uma fábrica, não existem caixas pretas. Existem estações de trabalho coordenadas e fluxos de materiais (RevenueStream) monitorados em tempo real. A gestão moderna exige o melhor de dois mundos: a agilidade do Growth e a precisão do DRE tradicional. Não basta crescer a qualquer custo; é preciso crescer com eficiência.
 
-**Gestao de Fluxo Completo:** A Fabrica de Receita nao monitora apenas o lead. Ela integra o CAC, a margem de contribuicao e as despesas operacionais (ExpenseEvent) diretamente ao fluxo de conversao.
+**Gestão de Fluxo Completo:** A Fábrica de Receita não monitora apenas o lead. Ela integra o CAC, a margem de contribuição e as despesas operacionais (ExpenseEvent) diretamente ao fluxo de conversão.
 
-**Integracao Financeira:** Voltamos a analise rigorosa que tinhamos la atras, mas com a velocidade de hoje. Se o custo de aquisicao sobe ou a eficiencia de uma estacao de trabalho cai, o impacto no lucro e detectado instantaneamente.
+**Integração Financeira:** Voltamos à análise rigorosa que tínhamos lá atrás, mas com a velocidade de hoje. Se o custo de aquisição sobe ou a eficiência de uma estação de trabalho cai, o impacto no lucro é detectado instantaneamente, não no fechamento do trimestre.
 
-## O Executivo de Receita como o Novo Engenheiro de Producao
+## O Executivo de Receita como o Novo Engenheiro de Produção
 
-Gerenciar receita exige a mesma precisao de uma planta industrial moderna:
+Gerenciar receita não é sobre "bater meta" no grito: exige a mesma precisão de uma planta industrial moderna. É sobre governar uma planta industrial complexa em tempo real:
 
-- **Visibilidade Total do Fluxo:** Diferente da maquina, na fabrica voce enxerga onde o material esta parado em tempo real.
-- **Identificacao de Gargalos:** Voce detecta o estrangulamento na capacidade no exato momento em que a demanda aumenta.
-- **Gestao por Anomalias:** O Engenheiro de Producao nao vigia cada parafuso. Ele constroi um sistema que emite alertas inteligentes quando algo sai do padrao.
-- **Equilibrio Sistemico:** Se voce acelera o marketing sem ajustar a vazao de vendas e CS, voce cria ociosidade ou ruptura.
+- **Visibilidade Total do Fluxo (RevenueStream):** Diferente da máquina, na fábrica você enxerga onde o material (lead/oportunidade) está parado em tempo real.
+- **Identificação de Gargalos:** Você detecta o estrangulamento na CapacityState (capacidade do time) no exato momento em que a DemandState (demanda do mercado) aumenta.
+- **Gestão por Anomalias:** O Engenheiro de Produção não vigia cada parafuso. Ele constrói um sistema que emite alertas inteligentes quando o RevenueEvent sai do padrão esperado.
+- **Equilíbrio Sistêmico:** Se você acelera o marketing sem ajustar a vazão de vendas e CS, você cria ociosidade ou ruptura. A fábrica permite equilibrar a carga em tempo real.
 
-## O Custo da "caixa preta"
+## O Custo da "caixa preta": A Invisibilidade que Corrói o P&L
 
-De acordo com a IDC, a falta de visibilidade sistemica cobra um pedagio caro: empresas perdem entre 20% e 30% de sua receita anualmente devido a ineficiencias ocultas em seus processos.
+De acordo com a IDC, a falta de visibilidade sistêmica cobra um pedágio caro: empresas perdem entre 20% e 30% de sua receita anualmente devido a ineficiências ocultas em seus processos. São Leads que ficam estagnados, integrações que falham, processos que não funcionam e, principalmente, decisões de capacidade (CapacityState) equivocadas que destroem a margem de contribuição.
 
-Sem sinais em tempo real de cada no do fluxo, e impossivel agir enquanto o dinheiro ainda esta na mesa. O resultado e a venda perdida — uma metrica invisivel quase impossivel de se mensurar com exatidao.
+Sem sinais em tempo real de cada nó do fluxo, é impossível agir enquanto o dinheiro ainda está na mesa. O resultado é a venda perdida — uma métrica invisível quase impossível de se mensurar com exatidão e que acaba sendo convenientemente ignorada pela gestão tradicional.
 
-*A pergunta que fica: voce continua apenas observando o que entra e sai, ou ja governa sua receita com a precisao de uma fabrica em movimento?*`,
+A tecnologia deve servir a um propósito maior: iluminar esses fluxos para alcançar a Eficiência Sistêmica. O objetivo não é apenas crescer, mas capturar o melhor resultado com a maior lucratividade possível.
+
+A era da gestão reativa, que dirige olhando pelo retrovisor, ficou para trás. O mercado não tolera mais a gestão por 'caixa preta'. O futuro pertence aos executivos que governam sua Fábrica de Receita em movimento, unindo a agilidade do funil com a sobriedade do P&L.
+
+*A pergunta que fica para sua próxima reunião de board é: você continua apenas observando o que entra e sai, ou já governa sua receita com a precisão de uma fábrica em movimento?*`,
   },
   {
     slug: "metas-salsichas",
-    title: "Se voce soubesse como as metas e as salsichas sao feitas...",
+    title: "Se você soubesse como as metas e as salsichas são feitas...",
     date: "2026-02-12",
     excerpt:
-      "A meta costuma ser uma peca de ficcao: um numero arbitrario baseado em um desejo de crescimento e nao na fisica do sistema.",
+      "A meta costuma ser uma peça de ficção: um número arbitrário baseado em um desejo de crescimento e não na física do sistema.",
     axioms: [
       "Arquitetura da Meta",
-      "Meta Movel",
+      "Meta Móvel",
       "Catchball",
       "InventoryState",
     ],
     locale: "pt",
-    content: `Diz o ditado que quem gosta de leis e de salsichas nao deve ver como elas sao feitas. No mundo corporativo, a maxima se aplica perfeitamente as metas: se as pessoas soubessem como a maioria delas e definida, nao teriam estomago para desdobrar o planejamento do ano.
+    content: `Diz o ditado que quem gosta de leis e de salsichas não deve ver como elas são feitas. No mundo corporativo, a máxima se aplica perfeitamente às metas: se as pessoas soubessem como a maioria delas é definida, não teriam estômago para desdobrar o planejamento do ano.
 
-A meta costuma ser uma peca de ficcao: um numero arbitrario, empurrado goela abaixo pelo Board ou CEO, baseado em um desejo de crescimento e nao na fisica do sistema.
+A meta costuma ser uma peça de ficção: um número arbitrário, empurrado goela abaixo pelo Board ou CEO, baseado em um desejo de crescimento e não na física do sistema. É o "Top-Down" sem o contraponto do Catchball (a negociação real de capacidade do Hoshin Kanri). Se você aceita o plano de 2026 sem questionar a engenharia por trás dele, você não está gerindo; está torcendo.
 
-## A Psicologia do Impossivel e o Teatro do Absurdo
+## A Psicologia do Impossível e o Teatro do Absurdo
 
-O estudo de Locke e Latham sobre a Teoria da Fixacao de Metas prova que objetivos desafiadores aumentam a produtividade em 18%. Mas ha um abismo entre o "desafiador" e o "impossivel".
+O estudo de Locke e Latham sobre a Teoria da Fixação de Metas prova que objetivos desafiadores aumentam a produtividade em 18%. Mas há um abismo entre o "desafiador" e o "impossível".
 
-Quando um executivo define uma meta agressiva sem visao sistemica, ele cria um efeito cascata de ficcao. As areas, para fazer a planilha fechar, comecam a projetar taxas de conversao 5x maiores do que a historica.
+Quando um executivo define uma meta agressiva sem visão sistêmica, ele cria um efeito cascata de ficção. As áreas, para fazer a planilha fechar, começam a projetar taxas de conversão 5x maiores do que a histórica ou ignoram os Lead Times de contratação. O resultado? Ou o time entrega metas conservadoras para garantir o bônus ou o sistema entra em falência múltipla.
 
-## Meta nao e Poesia
+## Meta não é Poesia
 
-Enquanto frameworks tradicionais como o SMART focam no "o que", a Gestao Sistemica foca no "como" o sistema se comporta. Meta precisa de Calculo de Vazao. Sem calcular a capacidade real e lead times de rampagem e o fluxo de entrada necessario vs. orcamento, voce nao tem um plano, tem uma alucinacao.
+Enquanto frameworks tradicionais como o SMART focam no "o quê", a Gestão Sistêmica foca no "como" o sistema se comporta. O mercado abraçou os OKRs pela promessa de agilidade, mas essa simplicidade foi mal interpretada.
 
-## A Meta Movel e a Calibracao Dinamica
+Hoje, metas viraram um exercício literário: escrevem-se frases inspiradoras em post-its, mas esquece-se que a receita tem um "encanamento" que precisa suportar a pressão. Meta precisa de Cálculo de Vazão. Sem calcular o InventoryState (capacidade real e lead times de rampagem) e o DemandState (fluxo de entrada necessário vs. orçamento), você não tem um plano, tem uma alucinação.
 
-Gerir uma empresa com metas estaticas e como dirigir um carro olhando para um mapa de papel impresso. Na Engenharia de Receita, a meta precisa do "Efeito Waze": se o fluxo de trafego muda ou identificamos um gargalo, o sistema deve recalcular a rota instantaneamente.
+## A Meta Móvel e a Calibração Dinâmica: A Fisiologia do Esforço e o Risco de Colapso
 
-Insistir no plano original diante de um bloqueio sistemico nao e "resiliencia", e teimosia operacional.
+Gerir uma empresa com metas estáticas é como dirigir um carro olhando para um mapa de papel impresso. Você sabe onde quer chegar, mas ignora que a ponte caiu ou que o tráfego parou. Na Engenharia de Receita, a meta precisa do "Efeito Waze": se o fluxo de tráfego de entrada muda ou identificamos um gargalo na sua linha de produção ou vendas, o sistema deve recalcular a rota instantaneamente.
 
-## A Anatomia do Erro: 5 Patologias Criticas
+Insistir no plano original diante de um bloqueio sistêmico não é "resiliência", é teimosia operacional.
 
-**1. Desdobramento por Silos:** A maioria dos executivos ainda sofre de cegueira operacional, desdobrando metas de forma isolada por area.
+Pense em um maratonista de elite. Ele tem um objetivo de tempo, mas monitora sua frequência cardíaca e níveis de lactato a cada quilômetro. Se o corpo sinaliza um superaquecimento, ele calibra o ritmo. Se ele ignorar a própria fisiologia para manter o "planejamento de mesa", ele não bate o recorde; ele colapsa antes da linha de chegada.
 
-**2. A Miopia do Retrovisor:** A gestao foca no fechamento como se fossem eventos isolados, ignorando que o sistema tem memoria e inercia.
+Nas empresas, o colapso se manifesta como burnout de equipes, perda de margem e o abandono silencioso da meta. Quando o esforço exigido pelo sistema ultrapassa a capacidade física da arquitetura, a eficiência cai drasticamente. Recalibrar a meta não é "baixar a régua", é garantir que o sistema opere na sua Zona de Performance Máxima sem entrar em paralisia operacional.
 
-**3. O Tabu da Revisao:** Existe uma dificuldade patologica em revisar metas. Tratar meta como uma promessa mistica em vez de um parametro de engenharia e o caminho mais curto para a perda de autoridade.
+## Recalcular é Inteligência, não Fraqueza
 
-**4. A Desintegracao de Foco:** Metas inalcancaveis matam o foco. Quando o numero oficial vira folclore, o time cria metas paralelas para justificar o proprio esforco.
+No modelo sistêmico, o esforço é uma variável de ajuste, não uma constante infinita. Se o sistema detecta que a conversão real está abaixo da projetada, a Engenharia de Receita oferece duas saídas reais:
 
-**5. Estrategias de Fim de Jogo:** Descontos agressivos que destroem a margem ou antecipacoes forcadas de receita. E o triunfo da ansiedade sobre a sustentabilidade.
+- **Injeção de Recurso:** Aumentar a vazão para compensar a perda de eficiência.
+- **Recalibração de Destino:** Ajustar o output para o que a física do sistema permite entregar com qualidade.
 
-## Como quebrar o ciclo? Da Magica a Engenharia
+O que não é aceitável é a "estratégia do grito", onde se exige mais velocidade de um motor que está sem combustível. A meta móvel é o que permite que a empresa mantenha a integridade enquanto navega pela volatilidade. É a diferença entre chegar ao destino com o carro inteiro ou ficar parado no acostamento com o motor fundido, segurando um plano de negócios que ninguém mais acredita.
 
-**1. Definicao do Output Global:** Estabelecemos a meta global, mas nao como um decreto estatico. Iniciamos o processo de Catchball.
+## A Anatomia do Erro: O Ciclo Vicioso da Autoilusão Estratégica
 
-**2. Modelagem de Fluxo Reverso:** Retrocedemos etapa por etapa do fluxo, calculando o que e necessario em cada estagio com base no historico e taxas de conversao realistas.
+Sem uma visão sistêmica que projete o ano de forma dinâmica, as empresas não fazem gestão; elas operam em um estado de negação técnica onde a arquitetura dá lugar a cinco patologias críticas, muito mais profundas do que gostamos de admitir:
 
-**3. Auditoria de Viabilidade:** Cruzamos o fluxo projetado com os recursos disponiveis. Se a conta nao fecha, ajustamos a estrategia, o processo, o investimento ou ate a meta final.
+**1. Desdobramento por Silos:** A maioria dos executivos ainda sofre de cegueira operacional, desdobrando metas de forma isolada por área, ignorando que o sistema é interconectado e vivo. Uma meta feita corretamente não é uma lápide estática esculpida em dezembro, mas um organismo móvel e calibrado que exige o esforço trabalhoso de alinhar a vazão do funil à realidade do mercado.
 
-*Se voce precisa triplicar a performance da noite para o dia para atingir o numero, voce nao tem um plano, voce tem uma esperanca.*`,
-  },
-  {
-    slug: "vergonha-mudar-de-lado",
-    title: "A vergonha precisa mudar de lado: minha jornada em busca do feminino",
-    date: "2026-03-08",
-    excerpt:
-      "Quando comecei minha carreira eu nao tinha referencias femininas. Por mais de quinze anos, tentei me adaptar a um ambiente feito por homens, para homens.",
-    axioms: ["Lideranca Feminina"],
-    locale: "pt",
-    content: `Quando comecei minha carreira eu nao tinha referencias femininas. Nenhuma. As mulheres que trabalhavam comigo estavam aprendendo a mesma coisa que eu: como sobreviver em um ambiente feito por homens, para homens.
+**2. A Miopia do Retrovisor:** A gestão foca no fechamento do dia ou do mês como se fossem eventos isolados, ignorando que o sistema tem memória e inércia. Muitas vezes, o descolamento entre a meta e a realidade já existe em janeiro, mas a "miopia" impede que vejam o impacto acumulado no fluxo futuro. Quando percebem, no terceiro trimestre, que bater as metas mensais restantes é matematicamente impossível, o sistema já entrou em colapso.
 
-## Eu acreditei que precisava virar mais um deles para crescer na carreira.
+**3. O Tabu da Revisão:** Existe uma dificuldade patológica — quase moral — em revisar metas. Em vez de recalibrar o sistema com base em dados físicos reais, a liderança opta por manter o "número de ficção", culpando a execução por falhas que são, na verdade, de design. Tratar meta como uma promessa mística em vez de um parâmetro de engenharia é o caminho mais curto para a perda de autoridade perante o time.
 
-Fiquei mais agressiva. Comecei a falar palavrao. Endureci. Um dia ouvi um chefe dizendo para outra lideranca: *"Pode falar na frente dela. Ela e brother."*
+**4. A Desintegração de Foco:** Metas inalcançáveis matam o foco. Quando o número oficial vira folclore, o time cria metas paralelas para justificar o próprio esforço. Enquanto o KPI principal apodrece, a organização desmorona lateralmente. Não há motivação que resista ao choque entre a pressão cega da gestão e a física do impossível.
 
-Ser "brother" significava ouvir piadas e comentarios sobre mulheres que eu preferia nunca ter escutado. Durante anos, esse foi o jogo.
+**5. Estratégias de Fim de Jogo:** É o ato final do desespero. Ao chegar ao fim do ano com o abismo exposto, autorizam-se manobras suicidas — descontos agressivos que destroem a margem ou antecipações forçadas de receita. É uma gestão que opera como se o jogo terminasse na virada do calendário, mas que apenas canibaliza o futuro e degrada a marca para o ciclo seguinte. É o triunfo da ansiedade sobre a sustentabilidade do sistema.
 
-Enquanto isso, eu via homens sendo promovidos mais rapido, ganhando mais, tendo mais oportunidades — mesmo quando muitas de nos trabalhavamos mais e eramos mais competentes.
+## Como quebrar o ciclo? Da Mágica à Engenharia
 
-## Nos tambem fomos criadas dentro da mesma estrutura
+A ruptura não vem de "trabalhar mais", mas de mudar a arquitetura. É aqui que entra a necessidade de criar uma Arquitetura da Meta para o seu negócio e substituir o pânico do acompanhamento mensal pela clareza do sistema.
 
-Tem uma parte dessa historia que pouca gente fala: nos, mulheres, tambem fomos educadas dentro do mesmo sistema machista. Demorou anos para eu entender o que realmente estava acontecendo.
+Se o sistema é dinâmico, a meta não pode ser fixa. Ela deve ser um algoritmo vivo que recalcula a rota assim que o DemandState ou o InventoryState sinalizam uma mudança na física do negócio. Defendo que a arquitetura da meta deve ser construída com o rigor de uma linha de produção:
 
-Por mais de quinze anos de carreira, eu nunca usei um vestido ou uma saia para trabalhar. Eu falava como eles. Me vestia como eles. Tentava pensar como eles tambem.
+**1. Definição do Output Global:** Estabelecemos a meta global no horizonte final, mas não como um decreto estático. Iniciamos o processo de Catchball, onde a diretriz estratégica é lançada para a operação. O objetivo aqui é alinhar a visão do Board ou do CEO à realidade física, tratando a meta como o output final de um sistema que precisa ser modelado, e não apenas desejado.
 
-## A virada
+**2. Modelagem de Fluxo Reverso (A Materialidade da Receita):** Retrocedemos etapa por etapa do fluxo, tratando cada marco (leads, oportunidades, clientes) como a "matéria-prima" de uma linha de produção. Calculamos o que é necessário em cada estágio com base no histórico, na sazonalidade e em taxas de conversão realistas. Neste estágio, a disciplina é fundamental: metas de eficiência devem ser incrementais e atingíveis. Tentar "consertar" um plano ruim injetando ganhos de performance agressivos e irreais neste momento é o que efetivamente quebra o sistema antes mesmo da execução.
 
-Minha grande virada aconteceu quando trabalhei em uma empresa de varejo extremamente machista. Ali eu percebi que nao importava o quanto eu tentasse me adaptar: eu nunca faria parte do grupo 'deles'.
+**3. Auditoria de Viabilidade do InventoryState (Capacidade Estrutural) e Alocação de Capital:** É onde a "bola" volta para a gestão com os dados da realidade. Cruzamos o fluxo projetado com os recursos disponíveis: temos máquinas, pessoas e tecnologia para processar essa vazão? O investimento disponível é condizente com o volume de demanda necessário? Por exemplo, se a projeção de leads exige um investimento de X e o orçamento libera apenas Y, o plano é impossível. É neste momento soberano que a conta precisa fechar — de trás para frente e de frente para trás. Se a conta não fecha, não "ajustamos a planilha"; ajustamos a estratégia, o processo, o investimento ou quiçá até a meta final.
 
-Pouco tempo depois pedi demissao. Tentar ficar do lado deles nunca me ajudou. Estava so perpetuando uma cultura que nao era a que eu queria para o mundo que minha filha iria crescer.
+O resultado final deve ser um plano de engenharia, não uma alucinação de performance. Um sistema de metas real é monitorado como um organismo vivo, onde as metas das áreas 'conversam' entre elas o tempo todo para evitar silos.
 
-## Abracando a feminilidade
-
-Foi quando comecei a abracar minha feminilidade. Foram anos de busca, terapia, conversas profundas e reflexoes para chegar num equilibrio entre as duas energias.
-
-A mudanca aconteceu em todos os aspectos: desde a forma que eu me vestia ate a forma que eu me comportava, falava e pensava. Me abrir para a vulnerabilidade. Comecar a ver coisas que tinha preferido ignorar.
-
-E algo magico aconteceu: minha lideranca mudou. Minha maternidade mudou. Minhas relacoes mudaram. Tudo mudou.
-
-## A luta continua
-
-A identificacao do machismo em alguns momentos e uma linha tenue — dificil de explicar, facil de invalidar. Nao foi porque eu aprendi a me posicionar que parei de conviver com o machismo.
-
-## Hoje
-
-Hoje eu sei exatamente quem e a Mariana mulher, amiga, filha, mae e lider. E nao tenho mais vergonha nenhuma da minha trajetoria. Como disse Gisele Pelicot: a vergonha precisa mudar de lado.
-
-Porque a lideranca feminina nao e sobre falar mais alto. E sobre mudar a forma como o seu poder e exercido.
-
-*A gente nao vai mais ter vergonha. Muito pelo contrario: agora nos temos orgulho.*`,
+*Se você precisa triplicar a performance da sua equipe da noite para o dia para atingir o número, você não tem um plano, você tem uma esperança. Tratar meta como um número fixo em um sistema dinâmico é como um piloto que ignora o radar de tempestade só porque o plano de voo original prometia céu limpo. Se a conta não fecha na arquitetura sistêmica, bater a meta não é questão de esforço, é questão de sorte — e sorte e esperança não são variáveis que fazem diferença na estratégia de crescimento.*`,
   },
   {
     slug: "4-formas-perder-receita",
-    title: "Sua empresa perde receita de 4 formas. Voce provavelmente nem percebe.",
+    title: "Sua empresa perde receita de 4 formas. Você provavelmente nem percebe.",
     date: "2026-03-25",
     excerpt:
-      "Existe uma metrica que quase nenhuma empresa mede: a receita perdida. Nao estou falando de deals perdidos no CRM. Estou falando do dinheiro que deveria ter entrado e nao entrou.",
+      "Existe uma métrica que quase nenhuma empresa mede: a receita perdida. Não estou falando de deals perdidos no CRM. Estou falando do dinheiro que deveria ter entrado e não entrou.",
     axioms: ["Loss Typology", "Leak", "Break", "Bottleneck", "Degradation"],
     locale: "pt",
-    content: `Existe uma metrica que quase nenhuma empresa mede: a receita perdida.
+    content: `Existe uma métrica que quase nenhuma empresa mede: a receita perdida.
 
-Nao estou falando de deals perdidos no CRM ou de churn reportado no board. Estou falando do dinheiro que deveria ter entrado — e nao entrou — por falhas sistemicas que ninguem enxerga. Essas perdas nao aparecem em nenhum dashboard. Nao geram alerta. E, segundo a IDC, representam entre 20% e 30% da receita anual de uma empresa.
+Não estou falando de deals perdidos no CRM ou de churn reportado no board. Estou falando do dinheiro que deveria ter entrado — e não entrou — por falhas sistêmicas que ninguém enxerga. A pessoa que esqueceu de cadastrar a data do vestibular no sistema e, toda terça-feira às 16h, a empresa perdia 20% da receita semanal. Os 3.000 leads que ficaram no limbo porque ninguém percebeu que a integração não estava funcionando. O posto que ficou sem combustível porque o gerente errou o cálculo de compra. O custo de aquisição que dobrou em seis meses e ninguém conectou ao impacto na margem.
 
-Nos ultimos anos, trabalhando com empresas de educacao, varejo, energia e telecom, identifiquei que toda perda de receita no fluxo segue os mesmos padroes. A perda sempre se encaixa em uma de quatro categorias.
+Essas perdas não aparecem em nenhum dashboard. Não geram alerta. Não disparam reunião de crise. E, segundo a IDC, representam entre 20% e 30% da receita anual de uma empresa.
+
+Nos últimos anos, trabalhando com empresas de educação, varejo, energia e telecom, identifiquei que toda perda de receita no fluxo segue os mesmos padrões. Não importa o setor, não importa o porte: a mecânica é a mesma.
+
+A perda sempre se encaixa em uma de quatro categorias, cada uma com causa, sintoma, velocidade e solução completamente diferentes. Tratar uma com a receita da outra é como tomar antibiótico para uma fratura.
 
 Chamo isso de Loss Typology.
 
 ## 1. Vazamento (Leak): a perda silenciosa
 
-O lead entrou no sistema, progrediu ate certo ponto e desapareceu. Nao houve ruptura, nao houve travamento. Simplesmente sumiu.
+O lead entrou no sistema, progrediu até certo ponto e desapareceu. Não houve ruptura, não houve travamento. Simplesmente sumiu. Como água escorrendo por uma torneira que não fecha completamente: cada gota parece insignificante, mas no final do mês, a conta é brutal.
 
-Em uma edtech, descobrimos que 3.000 leads estavam no limbo. Tinham entrado no sistema, sido capturados corretamente, mas nunca foram distribuidos para o time comercial. Ninguem tinha percebido porque o topo do funil continuava gerando volume.
+Em uma edtech onde trabalhei, descobrimos um dia que 3.000 leads estavam no limbo. Três mil. Tinham entrado no sistema, sido capturados corretamente, mas nunca foram distribuídos para o time comercial.
 
-O vazamento e gradual e continuo. Nao gera alarme porque nao ha evento de ruptura.
+Ninguém tinha percebido porque o topo do funil continuava gerando volume e o time de vendas continuava trabalhando os leads que recebia. A ausência desses 3.000 era invisível. Não aparecia como erro, não gerava alerta, não quebrava nenhum processo. Simplesmente existia como um buraco silencioso entre a captação e o atendimento.
 
-## 2. Ruptura (Break): a parada subita
+O vazamento é gradual e contínuo. Não gera alarme porque não há evento de ruptura. A perda é difusa — um pouco aqui, um pouco ali — e por isso é a mais difícil de detectar e a mais cara de ignorar.
 
-Diferente do vazamento, a ruptura e um evento discreto. O fluxo estava operando normalmente e, de repente, parou.
+## 2. Ruptura (Break): a parada súbita
 
-Em uma empresa de educacao, descobrimos que toda terca-feira, as 16h, a operacao perdia 20% da receita da semana. A causa? Uma unica pessoa nao cadastrava a data do vestibular no sistema dentro do prazo.
+Diferente do vazamento, a ruptura é um evento discreto. O fluxo estava operando normalmente e, de repente, parou. Algo que deveria estar acontecendo simplesmente deixou de acontecer.
 
-A ruptura e abrupta e detectavel se voce estiver olhando o tempo todo. O problema e que a maioria dos sistemas nao monitora a ausencia de eventos.
+Em uma empresa de educação, descobrimos que toda terça-feira, às 16h, a operação comercial perdia 20% da receita da semana. Toda semana. O mesmo dia, o mesmo horário, o mesmo impacto. A causa? Uma única pessoa não cadastrava a data do vestibular de algumas unidades no sistema dentro do prazo. Sem a data, o fluxo de inscrições daquele processo travava. A equipe comercial não recebia os candidatos. A tarde inteira se perdia. E na semana seguinte, acontecia de novo.
+
+Em postos de combustível, a ruptura tem outra cara: o gerente erra o cálculo de compra, o tanque seca, a bomba para. O posto continua aberto, vendendo outros produtos, mas a receita principal simplesmente zera até a próxima entrega. Sem monitoramento automatizado de nível de estoque, nenhum alerta sobe para a central. A gestão só descobre no fechamento do mês, quando já é tarde demais.
+
+A ruptura é abrupta e detectável se você estiver olhando o tempo todo. O problema é que a maioria dos sistemas não monitora a ausência de eventos. Se ninguém vendeu nas últimas quatro horas, não gera alerta. Deveria.
 
 ## 3. Gargalo (Bottleneck): o estrangulamento
 
-O fluxo continua passando, mas devagar demais. A capacidade e menor do que a demanda, criando uma fila que atrasa tudo.
+O fluxo continua passando, mas devagar demais. A capacidade de algum ponto do sistema é menor do que a demanda que chega nele, criando uma fila que atrasa tudo — e filas, no mundo da receita, não esperam.
 
-Na epoca de pico de matriculas, formavam-se filas interminaveis de atendimento porque ninguem tinha dimensionado a quantidade de atendentes corretamente. O marketing tinha feito seu trabalho: a demanda estava la. Mas a operacao nao conseguia processar.
+Vivi isso de perto em uma empresa de educação. Na época de pico de matrículas, formavam-se filas intermináveis de atendimento porque ninguém tinha dimensionado a quantidade de atendentes corretamente para o volume que chegava. O marketing tinha feito seu trabalho: a demanda estava lá. Mas a operação não conseguia processar por falta de recursos. A solução de emergência? Mutirão no fim de semana. A empresa inteira parava o que estava fazendo para atender a fila acumulada e colocar os atendimentos em dia.
 
-O gargalo nao matou a demanda, mas matou a conversao.
+Funciona uma vez. Duas. Na terceira, o time está exausto, a qualidade do atendimento despenca e o candidato que esperou dias já matriculou em outro lugar. O gargalo não matou a demanda mas matou a conversão.
 
-## 4. Degradacao (Degradation): a erosao progressiva
+O gargalo é traiçoeiro porque não impede o fluxo — apenas o retarda. Tudo parece estar funcionando, mas o tempo é inimigo da conversão. Quanto mais tempo um lead espera, maior a probabilidade de desistir.
 
-Tudo continua funcionando. O fluxo passa, as conversoes acontecem, a receita entra. Mas a qualidade do fluxo esta piorando mes a mes. Os custos sobem, as margens encolhem, a eficiencia cai.
+## 4. Degradação (Degradation): a erosão progressiva
 
-A empresa cresce no topo, mas a margem encolhe por baixo. Quando alguem finalmente conecta as variaveis, a erosao ja consumiu meses de eficiencia.
+Tudo continua funcionando. O fluxo passa, as conversões acontecem, a receita entra. Mas a qualidade do fluxo está piorando mês a mês. Os custos sobem, as margens encolhem, a eficiência cai. Como uma ferrugem que corrói a estrutura sem que ninguém perceba até o dia em que a ponte cede.
 
-A degradacao e a perda mais perigosa porque e a mais lenta.
+Vi isso se repetir em diversas startups ao longo da minha carreira. O padrão é sempre o mesmo: nos primeiros meses, os canais de aquisição são eficientes, o custo por lead é baixo, a conversão é saudável.
 
-## Por que ninguem ve?
+Com o tempo, as taxas de conversão vão caindo ao longo do processo. Um pouco em cada etapa, nada alarmante isoladamente. O custo por lead vai subindo. A receita total muitas vezes não cai, o que mascara o problema. Mas o custo da receita está aumentando silenciosamente. A empresa cresce no topo, mas a margem encolhe por baixo. Quando alguém finalmente conecta as variáveis, a erosão já consumiu meses de eficiência.
 
-Nao e incompetencia. E arquitetura.
+A degradação é a perda mais perigosa porque é a mais lenta. Não há evento, não há ruptura, não há fila. Tudo parece normal. É uma febre baixa que nunca sobe o suficiente para alarmar, mas que indica uma infecção silenciosa.
 
-Marketing cuida de leads, vendas cuida de pipeline, operacoes cuida de entrega, financas cuida do resultado. Cada area tem seus KPIs. Ninguem cuida do fluxo entre eles. E e exatamente nesse espaco — na transicao entre silos — que as quatro perdas acontecem.
+## Por que ninguém vê?
 
-## Da cegueira a engenharia
+Não é incompetência. É arquitetura.
 
-A resposta nao e trabalhar mais. E mudar a arquitetura de como a organizacao opera receita.
+E preciso dizer algo importante: as pessoas que trabalham nessas áreas são boas. A pessoa que não cadastrou a data do vestibular não é incompetente. O gerente do posto que errou o cálculo de compra não é negligente. O time de marketing que não percebeu a degradação do CAC não é descuidado. Cada um está fazendo o melhor possível dentro da visibilidade que tem.
 
-Primeiro, parar de tratar receita como um numero no final do mes e comecar a trata-la como o que ela realmente e: um sistema de partes interconectadas.
+O problema é que nenhuma pessoa, por melhor que seja, consegue ter a visão completa do sistema a partir de dentro de um silo. E não é justo esperar que tenha. A visão sistêmica não é responsabilidade de um indivíduo — é responsabilidade da organização. A empresa precisa fornecer essa visão. Se não fornece, está condenando pessoas competentes a operar no escuro.
 
-Segundo, entender que cada tipo de perda exige uma resposta diferente.
+Marketing cuida de leads, vendas cuida de pipeline, operações cuida de entrega, finanças cuida do resultado. Cada área tem seus KPIs, seus dashboards, suas reuniões. Ninguém cuida do fluxo entre eles. E é exatamente nesse espaço — na transição entre silos — que as quatro perdas acontecem.
 
-Terceiro, construir um sistema que detecte essas perdas antes que se perca demais. Circuit Breakers que disparam quando o fluxo sai do padrao esperado. Diagnostico causal. Cada conclusao rastreavel. Cada recomendacao auditavel. Nenhuma caixa preta.
+O vazamento mora entre marketing e vendas. O gargalo surge entre vendas e operações. A degradação se manifesta na desconexão entre custo de aquisição e margem de contribuição. A ruptura acontece quando operações trava e ninguém em vendas percebe.
 
-*Receita perdida nao volta. Mas pode parar de escapar.*`,
+Marketing comemora porque gerou 10.000 leads. Vendas reclama que os leads são ruins. Operações diz que não tem capacidade. Finanças aponta que a margem encolheu. Todos estão certos. E ninguém enxerga o sistema.
+
+Soma-se a isso dashboards que medem output (quanto fizemos?) em vez de fluxo (como o sistema está se comportando?) e alertas com thresholds fixos que ignoram o contexto (2 horas sem vender de madrugada é normal, 2 horas sem vender no sábado ao meio-dia é uma ruptura) e você tem a receita perfeita para o que chamo de Zona de Cegueira.
+
+Quando o problema finalmente aparece nos relatórios, no fechamento do trimestre, na reunião de board, o sistema já quebrou semanas atrás. Não é diagnóstico. É autópsia.
+
+## Da cegueira à engenharia
+
+A resposta não é trabalhar mais. Não é cobrar mais das pessoas. É mudar a arquitetura de como a organização opera receita.
+
+Primeiro, parar de tratar receita como um número no final do mês e começar a tratá-la como o que ela realmente é: um sistema de partes interconectadas com causalidade, onde cada elo tem capacidade, cada transição tem atrito, e cada perda tem tipo.
+
+Segundo, entender que cada tipo de perda exige uma resposta diferente. Não adianta investir em mais mídia se o problema é um vazamento na conversão. Não adianta otimizar conversão se o problema é um gargalo de capacidade. Não adianta contratar mais gente se o problema é uma degradação silenciosa de eficiência que ninguém está monitorando.
+
+Terceiro — e talvez o mais importante — construir um sistema que detecte essas perdas antes que se perca demais. Circuit Breakers que disparam quando o fluxo sai do padrão esperado para aquele contexto específico. Diagnóstico causal que percorre a cadeia receita → demanda → conversão → capacidade → classificação da perda → recomendação de ação. Cada conclusão rastreável. Cada recomendação auditável.
+
+Nenhuma caixa preta.
+
+Receita perdida não volta. Mas pode parar de escapar. E na minha experiência, essa é a maior alavanca de crescimento que a maioria das empresas nem sabe que tem porque nunca olhou para o lugar certo.`,
   },
 ];
 
@@ -283,5 +286,5 @@ export function getArticleBySlug(
 }
 
 export function getAllSlugs(): string[] {
-  return articles.map((a) => a.slug);
+  return [...new Set(articles.map((a) => a.slug))];
 }
