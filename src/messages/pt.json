@@ -86,6 +86,42 @@
     "whatsapp": "Fale pelo WhatsApp",
     "email": "Envie um Email"
   },
+  "blog": {
+    "label": "Blog",
+    "h1": "Thought Leadership",
+    "sub": "Insights sobre Revenue Intelligence, gestao sistemica e as perdas invisiveis que drenam sua receita.",
+    "read_more": "Ler artigo",
+    "back_home": "Voltar ao inicio",
+    "back_blog": "Voltar ao blog",
+    "share": "Compartilhe este artigo",
+    "ebook_cta_title": "Baixe o e-book gratuito",
+    "ebook_cta_sub": "Conheca os 4 tipos de perdas invisiveis de receita e como detecta-las antes que seja tarde.",
+    "ebook_cta_btn": "Baixar o E-book"
+  },
+  "ebook": {
+    "h1": "As 4 Perdas de Receita Invisiveis",
+    "sub": "Sua empresa perde receita de formas que nenhum dashboard mostra. Aprenda a identificar e interromper os 4 padroes sistemicos de perda antes que corroam suas margens.",
+    "cta": "Baixar o E-book",
+    "bullets": [
+      "Entenda a Loss Typology: Vazamento, Ruptura, Gargalo e Degradacao",
+      "Casos reais de educacao, varejo, energia e telecom",
+      "Um framework diagnostico para mapear seus proprios pontos cegos",
+      "A abordagem de Engenharia de Receita para visibilidade sistemica"
+    ],
+    "mockup_label": "Loss Typology",
+    "form_title": "Receba sua copia gratuita",
+    "form_sub": "Preencha abaixo e enviaremos o e-book para seu email."
+  },
+  "form": {
+    "name": "Nome completo",
+    "email": "Email corporativo",
+    "company": "Empresa",
+    "role": "Cargo",
+    "submit": "Baixar E-book",
+    "sending": "Enviando...",
+    "success": "Confira seu inbox! O e-book esta a caminho.",
+    "error": "Algo deu errado. Tente novamente."
+  },
   "footer": {
     "rights": "Todos os direitos reservados."
   },

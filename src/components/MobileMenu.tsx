@@ -3,9 +3,11 @@ import { useState } from "react";
 
 interface MobileMenuProps {
   nav: { solutions: string; platform: string; how: string; contact: string };
+  blogLabel?: string;
+  locale?: string;
 }
 
-export default function MobileMenu({ nav }: MobileMenuProps) {
+export default function MobileMenu({ nav, blogLabel, locale }: MobileMenuProps) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -30,6 +32,7 @@ export default function MobileMenu({ nav }: MobileMenuProps) {
           <a href="#solutions" onClick={() => setOpen(false)} className="hover:text-accent transition">{nav.solutions}</a>
           <a href="#platform" onClick={() => setOpen(false)} className="hover:text-accent transition">{nav.platform}</a>
           <a href="#how" onClick={() => setOpen(false)} className="hover:text-accent transition">{nav.how}</a>
+          {blogLabel && locale && <a href={`/${locale}/blog`} onClick={() => setOpen(false)} className="hover:text-accent transition">{blogLabel}</a>}
           <a href="mailto:mariana@revow.ai" onClick={() => setOpen(false)} className="hover:text-accent transition">{nav.contact}</a>
         </nav>
       )}

@@ -86,6 +86,42 @@
     "whatsapp": "Hablar por WhatsApp",
     "email": "Envíanos un Email"
   },
+  "blog": {
+    "label": "Blog",
+    "h1": "Thought Leadership",
+    "sub": "Insights sobre Revenue Intelligence, gestion sistemica y las perdidas invisibles que drenan tus ingresos.",
+    "read_more": "Leer articulo",
+    "back_home": "Volver al inicio",
+    "back_blog": "Volver al blog",
+    "share": "Comparte este articulo",
+    "ebook_cta_title": "Descarga el e-book gratuito",
+    "ebook_cta_sub": "Conoce los 4 tipos de perdidas invisibles de ingresos y como detectarlas antes de que sea tarde.",
+    "ebook_cta_btn": "Descargar el E-book"
+  },
+  "ebook": {
+    "h1": "Las 4 Perdidas de Ingresos Invisibles",
+    "sub": "Tu empresa pierde ingresos de formas que ningun dashboard muestra. Aprende a identificar y detener los 4 patrones sistemicos de perdida antes de que erosionen tus margenes.",
+    "cta": "Descargar el E-book",
+    "bullets": [
+      "Entiende la Loss Typology: Fuga, Ruptura, Cuello de botella y Degradacion",
+      "Casos reales de educacion, retail, energia y telecom",
+      "Un framework diagnostico para mapear tus propios puntos ciegos",
+      "El enfoque de Ingenieria de Ingresos para visibilidad sistemica"
+    ],
+    "mockup_label": "Loss Typology",
+    "form_title": "Recibe tu copia gratuita",
+    "form_sub": "Completa abajo y te enviaremos el e-book a tu email."
+  },
+  "form": {
+    "name": "Nombre completo",
+    "email": "Email corporativo",
+    "company": "Empresa",
+    "role": "Cargo",
+    "submit": "Descargar E-book",
+    "sending": "Enviando...",
+    "success": "Revisa tu inbox! El e-book esta en camino.",
+    "error": "Algo salio mal. Intenta de nuevo."
+  },
   "footer": {
     "rights": "Todos los derechos reservados."
   },

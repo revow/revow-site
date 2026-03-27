@@ -38,6 +38,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <a href="#solutions" className="hover:text-accent transition">{t.nav.solutions}</a>
             <a href="#platform" className="hover:text-accent transition">{t.nav.platform}</a>
             <a href="#how" className="hover:text-accent transition">{t.nav.how}</a>
+            <a href={`/${locale}/blog`} className="hover:text-accent transition">{t.blog.label}</a>
             <a href="#contact" className="hover:text-accent transition">{t.nav.contact}</a>
           </nav>
           <div className="flex items-center gap-3">
@@ -46,7 +47,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               className="hidden sm:inline-flex rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-light transition shadow-sm">
               {t.nav.cta}
             </a>
-            <MobileMenu nav={t.nav} />
+            <MobileMenu nav={t.nav} blogLabel={t.blog.label} locale={locale} />
           </div>
         </div>
       </header>
@@ -256,10 +257,11 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <Image src="/images/logo_cor_revow.png" alt="Revow" width={90} height={24} />
-            <div className="flex gap-6 text-sm text-text-muted">
+            <div className="flex flex-wrap gap-6 text-sm text-text-muted">
               <a href="#solutions" className="hover:text-accent transition">{t.nav.solutions}</a>
               <a href="#platform" className="hover:text-accent transition">{t.nav.platform}</a>
               <a href="#how" className="hover:text-accent transition">{t.nav.how}</a>
+              <a href={`/${locale}/blog`} className="hover:text-accent transition">{t.blog.label}</a>
               <a href="mailto:mariana@revow.ai" className="hover:text-accent transition">{t.nav.contact}</a>
             </div>
             <p className="text-xs text-text-muted">&copy; 2026 Revow. {t.footer.rights}</p>

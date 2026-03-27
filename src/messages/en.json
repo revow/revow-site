@@ -86,6 +86,42 @@
     "whatsapp": "Talk on WhatsApp",
     "email": "Email Us"
   },
+  "blog": {
+    "label": "Blog",
+    "h1": "Thought Leadership",
+    "sub": "Insights on Revenue Intelligence, systemic management, and the invisible losses draining your revenue.",
+    "read_more": "Read article",
+    "back_home": "Back to home",
+    "back_blog": "Back to blog",
+    "share": "Share this article",
+    "ebook_cta_title": "Download the free e-book",
+    "ebook_cta_sub": "Learn about the 4 types of invisible revenue losses and how to detect them before it's too late.",
+    "ebook_cta_btn": "Get the E-book"
+  },
+  "ebook": {
+    "h1": "The 4 Invisible Revenue Losses",
+    "sub": "Your company loses revenue in ways no dashboard shows. Learn to identify and stop the 4 systemic loss patterns before they erode your margins.",
+    "cta": "Download the E-book",
+    "bullets": [
+      "Understand the Loss Typology: Leak, Break, Bottleneck, and Degradation",
+      "Real cases from education, retail, energy, and telecom",
+      "A diagnostic framework to map your own blind spots",
+      "The Revenue Engineering approach to systemic visibility"
+    ],
+    "mockup_label": "Loss Typology",
+    "form_title": "Get your free copy",
+    "form_sub": "Fill in below and we'll send the e-book to your inbox."
+  },
+  "form": {
+    "name": "Full name",
+    "email": "Work email",
+    "company": "Company",
+    "role": "Role / Title",
+    "submit": "Download E-book",
+    "sending": "Sending...",
+    "success": "Check your inbox! The e-book is on its way.",
+    "error": "Something went wrong. Please try again."
+  },
   "footer": {
     "rights": "All rights reserved."
   },
