@@ -10,6 +10,7 @@ interface DemoModalProps {
     email: string;
     company: string;
     role: string;
+    phone: string;
     submit: string;
     sending: string;
     success: string;
@@ -21,7 +22,7 @@ interface DemoModalProps {
 export default function DemoModal({ labels, trigger }: DemoModalProps) {
   const [open, setOpen] = useState(false);
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
-  const [form, setForm] = useState({ name: "", email: "", company: "", role: "" });
+  const [form, setForm] = useState({ name: "", email: "", company: "", role: "", phone: "" });
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -114,6 +115,17 @@ export default function DemoModal({ labels, trigger }: DemoModalProps) {
                     placeholder={labels.role}
                     value={form.role}
                     onChange={(e) => setForm({ ...form, role: e.target.value })}
+                    className="w-full rounded-lg border border-border px-4 py-3 text-sm text-text-primary placeholder:text-text-muted focus:border-accent focus:ring-1 focus:ring-accent outline-none transition"
+                  />
+                  <input
+                    type="tel"
+                    placeholder={labels.phone}
+                    value={form.phone}
+                    onChange={(e) => {
+                      let v = e.target.value.replace(/[^\d+]/g, "");
+                      if (v && !v.startsWith("+")) v = "+55" + v;
+                      setForm({ ...form, phone: v });
+                    }}
                     className="w-full rounded-lg border border-border px-4 py-3 text-sm text-text-primary placeholder:text-text-muted focus:border-accent focus:ring-1 focus:ring-accent outline-none transition"
                   />
 

@@ -5,6 +5,7 @@ interface LeadPayload {
   email: string;
   company: string;
   role?: string;
+  phone?: string;
   source?: string;
 }
 
@@ -45,6 +46,7 @@ export async function POST(request: NextRequest) {
               email: body.email,
               company: body.company,
               jobtitle: body.role || "",
+              phone: body.phone || "",
               hs_lead_status: "NEW",
               lifecyclestage: "lead",
             },

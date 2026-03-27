@@ -10,6 +10,7 @@ interface DemoButtonProps {
     email: string;
     company: string;
     role: string;
+    phone: string;
     submit: string;
     sending: string;
     success: string;
