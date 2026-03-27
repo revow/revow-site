@@ -47,7 +47,6 @@ export async function POST(request: NextRequest) {
               jobtitle: body.role || "",
               hs_lead_status: "NEW",
               lifecyclestage: "lead",
-              leadsource: body.source || "website",
             },
           }),
         }
