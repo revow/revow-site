@@ -5,7 +5,6 @@
     "how": "Como Funciona",
     "contact": "Contato",
     "cta": "Agende uma Demo",
-    "demo": "Ver Demo",
     "whatsapp_msg": "Olá, gostaria de saber mais sobre a Revow!"
   },
   "hero": {
@@ -15,8 +14,7 @@
     "h1_3": "sinais inteligentes.",
     "sub": "Inteligência de receita com IA que mapeia todo o ciclo de receita, detecta vazamentos invisíveis e prescreve ações — personalizada para o seu negócio.",
     "cta1": "Agende uma Demo",
-    "cta2": "Veja Como Funciona",
-    "cta_demo": "Acessar Demo"
+    "cta2": "Veja Como Funciona"
   },
   "typewriter": [
     "monitore funis em tempo real",
@@ -52,8 +50,6 @@
   "solutions": {
     "label": "Soluções",
     "h2": "Veja o que sua receita realmente está fazendo",
-    "demo_cta": "Veja na prática",
-    "demo_cta_text": "Veja na prática como funciona",
     "items": [
       { "key": "monitoring", "title": "Monitoramento de Receita", "desc": "Acompanhamento hora a hora com metodologia PACE — quatro curvas que substituem benchmarking ingênuo por precisão direcional." },
       { "key": "funnel", "title": "Inteligência de Funil", "desc": "Conversão ponta a ponta com baseline, meta e detecção de tendência. Saiba onde valor é criado e onde ele vaza." },
@@ -88,8 +84,7 @@
     "h2_2": "juntos.",
     "sub": "Fale diretamente com nosso time. Sem formulário, sem espera.",
     "whatsapp": "Fale pelo WhatsApp",
-    "email": "Envie um Email",
-    "demo": "Acessar Demo"
+    "email": "Envie um Email"
   },
   "blog": {
     "label": "Blog",
@@ -101,8 +96,7 @@
     "share": "Compartilhe este artigo",
     "ebook_cta_title": "Baixe o e-book gratuito",
     "ebook_cta_sub": "Conheça os 4 tipos de perdas invisíveis de receita e como detectá-las antes que seja tarde.",
-    "ebook_cta_btn": "Baixar o E-book",
-    "demo_cta": "Ver Demo"
+    "ebook_cta_btn": "Baixar o E-book"
   },
   "ebook": {
     "h1": "As 4 Perdas de Receita Invisíveis",

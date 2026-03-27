@@ -43,10 +43,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </nav>
           <div className="flex items-center gap-3">
             <LangSwitcher locale={locale} />
-            <a href="https://demo.revow.ai" target="_blank" rel="noopener noreferrer"
-              className="hidden sm:inline-flex rounded-full border border-accent px-5 py-2.5 text-sm font-semibold text-accent hover:bg-accent hover:text-white transition">
-              {t.nav.demo}
-            </a>
             <a href={wa} target="_blank" rel="noopener noreferrer"
               className="hidden sm:inline-flex rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-light transition shadow-sm">
               {t.nav.cta}
@@ -80,10 +76,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                   <a href={wa} target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-7 py-3.5 text-base font-semibold text-white hover:bg-accent-light transition shadow-md shadow-accent/20">
                     <WhatsAppIcon className="w-5 h-5" />{t.hero.cta1}
-                  </a>
-                  <a href="https://demo.revow.ai" target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center rounded-full border border-accent px-7 py-3.5 text-base font-semibold text-accent hover:bg-accent hover:text-white transition">
-                    {t.hero.cta_demo}
                   </a>
                   <a href="#solutions"
                     className="inline-flex items-center justify-center rounded-full border border-border px-7 py-3.5 text-base font-medium text-text-secondary hover:border-accent/30 hover:text-accent transition">
@@ -188,21 +180,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </section>
 
-        {/* DEMO CTA BANNER */}
-        <section className="py-12 bg-accent">
-          <div className="mx-auto max-w-7xl px-6">
-            <FadeUp>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-center">
-                <p className="text-white text-lg font-semibold">{t.solutions.demo_cta_text}</p>
-                <a href="https://demo.revow.ai" target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center rounded-full border-2 border-white px-8 py-3 text-sm font-semibold text-white hover:bg-white hover:text-accent transition">
-                  {t.solutions.demo_cta}
-                </a>
-              </div>
-            </FadeUp>
-          </div>
-        </section>
-
         {/* HOW IT WORKS */}
         <section id="how" className="py-24 bg-bg-secondary">
           <div className="mx-auto max-w-7xl px-6">
@@ -264,10 +241,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 <a href={wa} target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-full bg-accent-light px-10 py-5 text-lg font-semibold text-white hover:bg-accent-glow transition shadow-lg shadow-accent-light/20">
                   <WhatsAppIcon className="w-5 h-5" />{t.cta.whatsapp}
-                </a>
-                <a href="https://demo.revow.ai" target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center rounded-full border-2 border-accent-light px-10 py-5 text-lg font-semibold text-accent-light hover:bg-accent-light hover:text-white transition">
-                  {t.cta.demo}
                 </a>
                 <a href="mailto:mariana@revow.ai"
                   className="inline-flex items-center justify-center rounded-full border border-white/15 px-10 py-5 text-lg font-medium text-white/60 hover:border-white/30 hover:text-white transition">

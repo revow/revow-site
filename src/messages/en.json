@@ -5,7 +5,6 @@
     "how": "How It Works",
     "contact": "Contact",
     "cta": "Book a Demo",
-    "demo": "See Demo",
     "whatsapp_msg": "Hi, I'd like to learn more about Revow!"
   },
   "hero": {
@@ -15,8 +14,7 @@
     "h1_3": "smart signals.",
     "sub": "AI-powered revenue intelligence that maps your entire revenue cycle, detects invisible leaks, and prescribes actions — customized to your business.",
     "cta1": "Book a Demo",
-    "cta2": "See How It Works",
-    "cta_demo": "Access Demo"
+    "cta2": "See How It Works"
   },
   "typewriter": [
     "monitor funnels in real time",
@@ -52,8 +50,6 @@
   "solutions": {
     "label": "Solutions",
     "h2": "See what your revenue is really doing",
-    "demo_cta": "See it in action",
-    "demo_cta_text": "See how it works in practice",
     "items": [
       { "key": "monitoring", "title": "Revenue Monitoring", "desc": "Real-time hourly tracking with PACE methodology — four curves that replace naive benchmarking with directional precision." },
       { "key": "funnel", "title": "Funnel Intelligence", "desc": "End-to-end conversion with baseline, target, and trend detection. Know where value is created and where it leaks." },
@@ -88,8 +84,7 @@
     "h2_2": "together.",
     "sub": "Talk directly to our team. No forms, no waiting.",
     "whatsapp": "Talk on WhatsApp",
-    "email": "Email Us",
-    "demo": "Access Demo"
+    "email": "Email Us"
   },
   "blog": {
     "label": "Blog",
@@ -101,8 +96,7 @@
     "share": "Share this article",
     "ebook_cta_title": "Download the free e-book",
     "ebook_cta_sub": "Learn about the 4 types of invisible revenue losses and how to detect them before it's too late.",
-    "ebook_cta_btn": "Get the E-book",
-    "demo_cta": "See Demo"
+    "ebook_cta_btn": "Get the E-book"
   },
   "ebook": {
     "h1": "The 4 Invisible Revenue Losses",

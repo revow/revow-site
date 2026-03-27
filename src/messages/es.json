@@ -5,7 +5,6 @@
     "how": "Cómo Funciona",
     "contact": "Contacto",
     "cta": "Agendar una Demo",
-    "demo": "Ver Demo",
     "whatsapp_msg": "Hola, me gustaría saber más sobre Revow!"
   },
   "hero": {
@@ -15,8 +14,7 @@
     "h1_3": "señales inteligentes.",
     "sub": "Inteligencia de ingresos con IA que mapea todo tu ciclo de ingresos, detecta fugas invisibles y prescribe acciones — personalizada para tu negocio.",
     "cta1": "Agendar una Demo",
-    "cta2": "Ver Cómo Funciona",
-    "cta_demo": "Acceder Demo"
+    "cta2": "Ver Cómo Funciona"
   },
   "typewriter": [
     "monitorea embudos en tiempo real",
@@ -52,8 +50,6 @@
   "solutions": {
     "label": "Soluciones",
     "h2": "Mira lo que tus ingresos realmente están haciendo",
-    "demo_cta": "Véalo en acción",
-    "demo_cta_text": "Vea cómo funciona en la práctica",
     "items": [
       { "key": "monitoring", "title": "Monitoreo de Ingresos", "desc": "Seguimiento hora a hora con metodología PACE — cuatro curvas que reemplazan benchmarking ingenuo por precisión direccional." },
       { "key": "funnel", "title": "Inteligencia de Embudo", "desc": "Conversión de extremo a extremo con baseline, meta y detección de tendencias. Sabe dónde se crea valor y dónde se fuga." },
@@ -88,8 +84,7 @@
     "h2_2": "juntos.",
     "sub": "Habla directamente con nuestro equipo. Sin formularios, sin esperas.",
     "whatsapp": "Hablar por WhatsApp",
-    "email": "Envíanos un Email",
-    "demo": "Acceder Demo"
+    "email": "Envíanos un Email"
   },
   "blog": {
     "label": "Blog",
@@ -101,8 +96,7 @@
     "share": "Comparte este articulo",
     "ebook_cta_title": "Descarga el e-book gratuito",
     "ebook_cta_sub": "Conoce los 4 tipos de perdidas invisibles de ingresos y como detectarlas antes de que sea tarde.",
-    "ebook_cta_btn": "Descargar el E-book",
-    "demo_cta": "Ver Demo"
+    "ebook_cta_btn": "Descargar el E-book"
   },
   "ebook": {
     "h1": "Las 4 Perdidas de Ingresos Invisibles",
