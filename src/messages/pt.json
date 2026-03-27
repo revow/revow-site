@@ -122,6 +122,14 @@
     "success": "Confira seu inbox! O e-book está a caminho.",
     "error": "Algo deu errado. Tente novamente."
   },
+  "demo": {
+    "title": "Agende uma Demo",
+    "sub": "Preencha seus dados e entraremos em contato para agendar uma demonstração personalizada.",
+    "submit": "Solicitar Demo",
+    "sending": "Enviando...",
+    "success": "Recebemos sua solicitação! Entraremos em contato em breve.",
+    "error": "Algo deu errado. Tente novamente."
+  },
   "footer": {
     "rights": "Todos os direitos reservados."
   },

@@ -7,6 +7,7 @@ import SimCopilot from "@/components/SimCopilot";
 import SimConversion from "@/components/SimConversion";
 import LangSwitcher from "@/components/LangSwitcher";
 import MobileMenu from "@/components/MobileMenu";
+import DemoButton from "@/components/DemoButton";
 import { getMessages } from "@/i18n";
 
 const WA_NUMBER = "5521988889760";
@@ -43,10 +44,11 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </nav>
           <div className="flex items-center gap-3">
             <LangSwitcher locale={locale} />
-            <a href={wa} target="_blank" rel="noopener noreferrer"
-              className="hidden sm:inline-flex rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-light transition shadow-sm">
-              {t.nav.cta}
-            </a>
+            <DemoButton
+              labels={{ ...t.form, ...t.demo, title: t.demo.title, sub: t.demo.sub, submit: t.demo.submit, sending: t.demo.sending, success: t.demo.success, error: t.demo.error }}
+              buttonText={t.nav.cta}
+              className="hidden sm:inline-flex rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-light transition shadow-sm"
+            />
             <MobileMenu nav={t.nav} blogLabel={t.blog.label} locale={locale} />
           </div>
         </div>
@@ -73,10 +75,11 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </FadeUp>
               <FadeUp delay={400}>
                 <div className="mt-6 flex flex-col sm:flex-row gap-3">
-                  <a href={wa} target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-7 py-3.5 text-base font-semibold text-white hover:bg-accent-light transition shadow-md shadow-accent/20">
-                    <WhatsAppIcon className="w-5 h-5" />{t.hero.cta1}
-                  </a>
+                  <DemoButton
+                    labels={{ ...t.form, ...t.demo, title: t.demo.title, sub: t.demo.sub, submit: t.demo.submit, sending: t.demo.sending, success: t.demo.success, error: t.demo.error }}
+                    buttonText={t.hero.cta1}
+                    className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-7 py-3.5 text-base font-semibold text-white hover:bg-accent-light transition shadow-md shadow-accent/20"
+                  />
                   <a href="#solutions"
                     className="inline-flex items-center justify-center rounded-full border border-border px-7 py-3.5 text-base font-medium text-text-secondary hover:border-accent/30 hover:text-accent transition">
                     {t.hero.cta2}
@@ -238,10 +241,11 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </h2>
               <p className="mt-6 text-lg text-white/50">{t.cta.sub}</p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href={wa} target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-accent-light px-10 py-5 text-lg font-semibold text-white hover:bg-accent-glow transition shadow-lg shadow-accent-light/20">
-                  <WhatsAppIcon className="w-5 h-5" />{t.cta.whatsapp}
-                </a>
+                <DemoButton
+                  labels={{ ...t.form, ...t.demo, title: t.demo.title, sub: t.demo.sub, submit: t.demo.submit, sending: t.demo.sending, success: t.demo.success, error: t.demo.error }}
+                  buttonText={t.cta.whatsapp}
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-accent-light px-10 py-5 text-lg font-semibold text-white hover:bg-accent-glow transition shadow-lg shadow-accent-light/20"
+                />
                 <a href="mailto:mariana@revow.ai"
                   className="inline-flex items-center justify-center rounded-full border border-white/15 px-10 py-5 text-lg font-medium text-white/60 hover:border-white/30 hover:text-white transition">
                   {t.cta.email}

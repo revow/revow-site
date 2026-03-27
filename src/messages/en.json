@@ -122,6 +122,14 @@
     "success": "Check your inbox! The e-book is on its way.",
     "error": "Something went wrong. Please try again."
   },
+  "demo": {
+    "title": "Schedule a Demo",
+    "sub": "Fill in your details and we'll reach out to schedule a personalized demonstration.",
+    "submit": "Request Demo",
+    "sending": "Sending...",
+    "success": "We received your request! We'll be in touch shortly.",
+    "error": "Something went wrong. Please try again."
+  },
   "footer": {
     "rights": "All rights reserved."
   },

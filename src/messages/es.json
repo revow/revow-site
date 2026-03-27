@@ -122,6 +122,14 @@
     "success": "Revisa tu inbox! El e-book esta en camino.",
     "error": "Algo salio mal. Intenta de nuevo."
   },
+  "demo": {
+    "title": "Agende una Demo",
+    "sub": "Complete sus datos y nos pondremos en contacto para agendar una demostración personalizada.",
+    "submit": "Solicitar Demo",
+    "sending": "Enviando...",
+    "success": "¡Recibimos su solicitud! Nos pondremos en contacto pronto.",
+    "error": "Algo salió mal. Intente de nuevo."
+  },
   "footer": {
     "rights": "Todos los derechos reservados."
   },
