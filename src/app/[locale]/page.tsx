@@ -241,15 +241,15 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </h2>
               <p className="mt-6 text-lg text-white/50">{t.cta.sub}</p>
               <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+                <a href={wa} target="_blank" rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-accent-light px-10 py-5 text-lg font-semibold text-white hover:bg-accent-glow transition shadow-lg shadow-accent-light/20">
+                  <WhatsAppIcon className="w-5 h-5" />{t.cta.whatsapp}
+                </a>
                 <DemoButton
                   labels={{ ...t.form, ...t.demo, title: t.demo.title, sub: t.demo.sub, submit: t.demo.submit, sending: t.demo.sending, success: t.demo.success, error: t.demo.error }}
-                  buttonText={t.cta.whatsapp}
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-accent-light px-10 py-5 text-lg font-semibold text-white hover:bg-accent-glow transition shadow-lg shadow-accent-light/20"
+                  buttonText={t.nav.cta}
+                  className="inline-flex items-center justify-center rounded-full border border-white/15 px-10 py-5 text-lg font-medium text-white/60 hover:border-white/30 hover:text-white transition"
                 />
-                <a href="mailto:mariana@revow.ai"
-                  className="inline-flex items-center justify-center rounded-full border border-white/15 px-10 py-5 text-lg font-medium text-white/60 hover:border-white/30 hover:text-white transition">
-                  {t.cta.email}
-                </a>
               </div>
             </FadeUp>
           </div>

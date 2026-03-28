@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 
 interface DemoModalProps {
   labels: {
@@ -23,6 +24,9 @@ export default function DemoModal({ labels, trigger }: DemoModalProps) {
   const [open, setOpen] = useState(false);
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const [form, setForm] = useState({ name: "", email: "", company: "", role: "", phone: "" });
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => { setMounted(true); }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -49,8 +53,8 @@ export default function DemoModal({ labels, trigger }: DemoModalProps) {
         {trigger}
       </span>
 
-      {open && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" style={{ minHeight: "100vh", minWidth: "100vw", top: 0, left: 0 }}>
+      {open && mounted && createPortal(
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
           {/* Backdrop */}
           <div
             className="fixed inset-0 bg-black/60 backdrop-blur-sm"
@@ -144,7 +148,8 @@ export default function DemoModal({ labels, trigger }: DemoModalProps) {
               </>
             )}
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );
