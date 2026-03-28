@@ -29,7 +29,6 @@ export default function MobileMenu({ nav, blogLabel, locale }: MobileMenuProps) 
       </button>
       {open && (
         <nav className="absolute top-full left-0 right-0 bg-white border-b border-border shadow-lg px-6 py-4 flex flex-col gap-4 text-sm font-medium text-text-secondary">
-          <a href="#solutions" onClick={() => setOpen(false)} className="hover:text-accent transition">{nav.solutions}</a>
           <a href="#platform" onClick={() => setOpen(false)} className="hover:text-accent transition">{nav.platform}</a>
           <a href="#how" onClick={() => setOpen(false)} className="hover:text-accent transition">{nav.how}</a>
           {blogLabel && locale && <a href={`/${locale}/blog`} onClick={() => setOpen(false)} className="hover:text-accent transition">{blogLabel}</a>}

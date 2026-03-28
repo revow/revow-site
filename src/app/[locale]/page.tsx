@@ -36,7 +36,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <Image src="/images/logo_cor_revow.png" alt="Revow" width={110} height={30} priority />
           <nav className="hidden md:flex items-center gap-8 text-sm text-text-secondary font-medium">
-            <a href="#solutions" className="hover:text-accent transition">{t.nav.solutions}</a>
             <a href="#platform" className="hover:text-accent transition">{t.nav.platform}</a>
             <a href="#how" className="hover:text-accent transition">{t.nav.how}</a>
             <a href={`/${locale}/blog`} className="hover:text-accent transition">{t.blog.label}</a>
@@ -262,7 +261,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <Image src="/images/logo_cor_revow.png" alt="Revow" width={90} height={24} />
             <div className="flex flex-wrap gap-6 text-sm text-text-muted">
-              <a href="#solutions" className="hover:text-accent transition">{t.nav.solutions}</a>
               <a href="#platform" className="hover:text-accent transition">{t.nav.platform}</a>
               <a href="#how" className="hover:text-accent transition">{t.nav.how}</a>
               <a href={`/${locale}/blog`} className="hover:text-accent transition">{t.blog.label}</a>
