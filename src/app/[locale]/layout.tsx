@@ -131,7 +131,11 @@ export default async function RootLayout({ children, params }: { children: React
           {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}
         </Script>
       </head>
-      <body className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}>{children}</body>
+      <body className={`${inter.variable} ${spaceGrotesk.variable} antialiased`}>
+        {children}
+        {/* HubSpot tracking */}
+        <Script id="hs-script-loader" src="//js.hs-scripts.com/48653786.js" strategy="afterInteractive" />
+      </body>
     </html>
   );
 }
