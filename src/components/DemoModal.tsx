@@ -28,6 +28,14 @@ export default function DemoModal({ labels, trigger }: DemoModalProps) {
 
   useEffect(() => { setMounted(true); }, []);
 
+  // Tell HubSpot to detect this non-HubSpot form when modal opens (SPA)
+  useEffect(() => {
+    if (open) {
+      const _hsq = (window as any)._hsq = (window as any)._hsq || [];
+      _hsq.push(["collectForms"]);
+    }
+  }, [open]);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("sending");
@@ -38,6 +46,11 @@ export default function DemoModal({ labels, trigger }: DemoModalProps) {
         body: JSON.stringify({ ...form, source: "demo-request" }),
       });
       if (res.ok) {
+        // HubSpot: identify visitor so page views are linked to this contact
+        const _hsq = (window as any)._hsq = (window as any)._hsq || [];
+        const parts = form.name.trim().split(" ");
+        _hsq.push(["identify", { email: form.email, firstname: parts[0] || "", lastname: parts.slice(1).join(" ") || "", company: form.company }]);
+        _hsq.push(["trackPageView"]);
         setStatus("success");
       } else {
         setStatus("error");

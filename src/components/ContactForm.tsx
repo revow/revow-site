@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState, useEffect, type FormEvent } from "react";
 
 interface ContactFormProps {
   variant: "ebook" | "contact";
@@ -20,6 +20,12 @@ interface ContactFormProps {
 export default function ContactForm({ variant, onSuccess, labels }: ContactFormProps) {
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
+
+  // Tell HubSpot to detect this non-HubSpot form (SPA)
+  useEffect(() => {
+    const _hsq = (window as any)._hsq = (window as any)._hsq || [];
+    _hsq.push(["collectForms"]);
+  }, []);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -46,6 +52,11 @@ export default function ContactForm({ variant, onSuccess, labels }: ContactFormP
         const body = await res.json().catch(() => ({}));
         throw new Error(body.error || "Request failed");
       }
+
+      // HubSpot: identify visitor so page views are linked to this contact
+      const _hsq = (window as any)._hsq = (window as any)._hsq || [];
+      _hsq.push(["identify", { email: data.email, firstname: data.name.split(" ")[0], lastname: data.name.split(" ").slice(1).join(" "), company: data.company }]);
+      _hsq.push(["trackPageView"]);
 
       setStatus("success");
       onSuccess?.();
