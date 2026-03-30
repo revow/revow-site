@@ -56,14 +56,9 @@ export async function POST(request: NextRequest) {
 
       if (!hubspotRes.ok) {
         const err = await hubspotRes.json().catch(() => ({}));
-        console.error("HubSpot API error:", err);
-        // If contact already exists (409), that's OK
-        if (hubspotRes.status !== 409) {
-          return NextResponse.json(
-            { error: "Failed to save contact" },
-            { status: 500 }
-          );
-        }
+        console.error("HubSpot API error:", hubspotRes.status, err);
+        // Don't block the user — log the error but return success
+        // Contact will still be captured by HubSpot collectForms + identify
       }
     } else {
       console.log("[Lead captured]", {
