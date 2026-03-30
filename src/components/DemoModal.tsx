@@ -28,13 +28,8 @@ export default function DemoModal({ labels, trigger }: DemoModalProps) {
 
   useEffect(() => { setMounted(true); }, []);
 
-  // Tell HubSpot to detect this non-HubSpot form when modal opens (SPA)
-  useEffect(() => {
-    if (open) {
-      const _hsq = (window as any)._hsq = (window as any)._hsq || [];
-      _hsq.push(["collectForms"]);
-    }
-  }, [open]);
+  // Note: collectForms removed — it auto-maps fields incorrectly
+  // causing name duplication. We use identify + server-side API instead.
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

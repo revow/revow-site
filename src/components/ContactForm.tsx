@@ -21,11 +21,8 @@ export default function ContactForm({ variant, onSuccess, labels }: ContactFormP
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
-  // Tell HubSpot to detect this non-HubSpot form (SPA)
-  useEffect(() => {
-    const _hsq = (window as any)._hsq = (window as any)._hsq || [];
-    _hsq.push(["collectForms"]);
-  }, []);
+  // Note: collectForms removed — it auto-maps the "name" field to firstname
+  // causing duplication. We use identify + server-side API instead.
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
